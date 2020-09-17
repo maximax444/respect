@@ -1,0 +1,66 @@
+.garanty
+ background: #FBF8F6
+ border-radius: 8px
+ padding-bottom: 110px
+ &-wrap
+  display: flex
+  align-items: flex-end
+ &-title
+  font-weight: 400
+  margin: 0
+  max-width: 575px
+  padding-top: 66px
+  margin-bottom: 45px
+  font-size: 35px
+  line-height: 45px
+ &-cont
+  width: 575px
+ &-img
+  width: 602px
+  margin-left: -7px
+  img
+   max-width: 100%
+ &-list
+  padding: 0
+  margin: 0 
+  list-style-type: none
+  margin-bottom: 15px
+  max-width: 415px
+  li
+   font-weight: 300
+   font-size: 14px
+   line-height: 22px
+   padding-left: 54px
+   position: relative
+   margin-bottom: 28px
+   &::before 
+    content: ""
+    width: 34px
+    height: 34px
+    position: absolute
+    top: 50%
+    margin-top: -17px
+    left: 0
+    display: block
+    background: url("../img/stock-in-main-list.png") center no-repeat
+    background-size: cover
+@media(max-width: 991px)
+ .garanty
+  &-wrap
+   display: block
+  &-cont
+   max-width: 100%
+  &-img
+   margin-top: 40px
+   max-width: 100%
+@media(max-width: 575px)
+ .garanty
+  padding-bottom: 40px
+  &-title
+   padding-top: 40px
+   font-size: 22px
+   line-height: normal
+  &-btn
+   width: 250px
+   height: 60px
+   font-size: 14px

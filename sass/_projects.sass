@@ -1,0 +1,252 @@
+.projects
+ &-top
+  padding-bottom: 60px
+  background: url("../img/projects-top-bg.png") center no-repeat
+  &-title
+   margin-top: 100px
+   margin-bottom: 50px
+   max-width: 362px
+   font-size: 30px
+   line-height: 40px
+  &-quote
+   padding: 40px 23px 30px 23px
+   width: 360px
+   height: 150px
+   background-color: #fff
+   box-shadow: 0px 20px 80px rgba(0, 0, 0, 0.1)
+   border-radius: 8px
+   font-weight: 400
+   font-size: 14px
+   line-height: 20px
+   color: #111111
+   position: relative
+   &::after
+    content: ""
+    display: block
+    width: 346px
+    height: 136px
+    position: absolute
+    top: 6px
+    left: 6px
+    border: 1px dashed rgba(0, 0, 0, 0.08)
+    border-radius: 8px
+   &::before
+    content: ""
+    display: block
+    width: 45px
+    height: 45px
+    z-index: 2
+    background: #FBF8F6 url("../img/blog-icon.png") center no-repeat
+    border-radius: 50%
+    position: absolute
+    left: 20px
+    top: -21px
+ &-main
+  padding: 50px 0
+  background: rgba(251, 248, 246, 0.7)
+  &-wrapper
+   display: flex
+   justify-content: space-between
+   align-items: flex-start
+  &-wrap
+   display: grid
+   grid-template-columns: repeat(3, 1fr)
+   grid-gap: 10px
+   &2
+    width: 830px
+  &-btn
+   width: 227px
+   height: 76px
+   margin: 0 auto
+   margin-top: 45px
+ &-filter
+  width: 322px
+  padding: 10px 9px
+  background: #FFFFFF
+  box-shadow: 0px 20px 80px rgba(0, 0, 0, 0.1)
+  border-radius: 8px
+  &-wrapper
+   border: 1px dashed rgba(0, 0, 0, 0.08)
+   border-radius: 8px
+   height: 100%
+   padding: 30px 25px
+  &-title
+   padding-bottom: 19px
+   margin-bottom: 30px
+   font-weight: bold
+   font-size: 18px
+   line-height: 22px
+   border-bottom: 1px dashed rgba(211, 211, 211, 0.63)
+  &-wrap
+   margin-bottom: 40px
+   &-title
+    margin-bottom: 15px
+    font-weight: bold
+    font-size: 16px
+    line-height: 16px
+  &-block
+   &-title
+    height: 56px
+    display: flex
+    align-items: center
+    padding-left: 17px
+    padding-right: 50px
+    font-size: 13px
+    cursor: pointer
+    position: relative
+    border: 1px solid rgba(211, 211, 211, 0.5)
+    border-radius: 3px
+    &::after
+     content: ""
+     display: block
+     width: 26px
+     height: 26px
+     position: absolute
+     right: 21px
+     top: 15px
+     background: url("../img/quest-arrow.png") center no-repeat
+     background-size: cover
+    &:hover::after
+     background: url("../img/quest-arrow2.png") center no-repeat
+     background-size: cover
+     transform: rotate(180deg)
+    &-active
+     &::after
+      background: url("../img/quest-arrow2.png") center no-repeat
+      background-size: cover
+     &:hover::after
+      transform: rotate(0deg)
+   &-cont
+    display: none
+    margin-top: 20px
+    height: 105px
+    overflow: hidden
+    &-active
+     display: block
+   &-label
+    margin-bottom: 15px
+    display: flex
+    align-items: center
+    font-size: 14px
+    line-height: 25px
+    cursor: pointer
+    input
+     height: 0
+     width: 0
+     overflow: hidden
+     opacity: 0
+    span
+     display: flex
+     justify-content: center
+     align-items: center
+     width: 20px
+     height: 20px
+     border: 1px solid rgba(211, 211, 211, 0.63)
+     border-radius: 3px
+     position: relative
+     margin-right: 12px
+     img
+      display: none
+    input:checked + span
+     img
+      display: block
+ &-bottom
+  padding-top: 100px
+  padding-bottom: 75px
+  &-wrap
+   display: flex
+   justify-content: space-between
+  &-cont
+   padding-top: 50px
+  &-title
+   font-size: 35px
+   margin-bottom: 50px
+   line-height: 45px
+   b
+    display: block
+  &-descr
+   font-size: 17px
+   margin-bottom: 56px
+   line-height: 23px
+  &-btn
+   width: 211px
+   height: 76px
+  &-img
+   img
+    max-width: 100%
+@media(max-width: 1199px)
+ .projects
+  &-filter
+   width: 290px
+   margin-right: 10px
+   &-wrapper
+    padding: 25px 10px
+  &-bottom
+   &-cont
+    padding-top: 0
+   &-img
+    width: 450px
+@media(max-width: 991px)
+ .projects
+  &-top
+   &-title
+    margin-top: 50px
+  &-main
+   &-wrap
+    grid-template-columns: repeat(2, 1fr)
+    &2
+     width: 600px
+  &-bottom
+   &-wrap
+    align-items: center
+   &-title
+    font-size: 30px
+   &-img
+    width: 370px
+@media(max-width: 767px)
+ .projects
+  &-main
+   &-wrapper
+    display: block
+   &-wrap2
+    width: 100%
+  &-filter
+   margin-bottom: 25px
+  &-bottom
+   padding: 40px 0
+   &-wrap
+    display: block
+   &-img
+    width: 100%
+   &-cont
+    margin-bottom: 35px
+@media(max-width: 575px)
+ .projects
+  &-top
+   padding-bottom: 40px
+   &-title
+    font-size: 24px
+    line-height: normal
+    margin-top: 40px
+   &-quote
+    width: 290px
+    font-size: 14px
+    line-height: normal
+    &::after
+     width: 276px
+  &-main
+   &-wrap
+    grid-template-columns: 1fr
+  &-bottom
+   &-title
+    font-size: 22px
+    line-height: normal
+    margin-bottom: 20px
+   &-descr
+    font-size: 14px
+    line-height: normal
+    margin-bottom: 20px
+   &-btn
+    width: 200px
+    height: 60px
+    font-size: 14px

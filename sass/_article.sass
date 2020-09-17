@@ -1,0 +1,51 @@
+.article
+ &-last
+  background: #FCFAF9
+  &-title
+   max-width: 100%
+ &2
+  background: #FCFAF9
+ &-wrap
+  display: flex
+  justify-content: space-between
+ &-cont
+  max-width: 65%
+ &-img
+  max-width: 30%
+  img
+   max-width: 100%
+ &1, &2
+  padding: 60px 0
+  h2
+   font-weight: bold
+   font-size: 30px
+   line-height: 45px
+   color: #000000
+   margin: 10px 0
+  p
+   font-weight: 300
+   font-size: 17px
+   line-height: 150%
+   color: #000000
+   margin: 10px 0
+@media(max-width: 767px)
+ .article
+  &-wrap
+   flex-direction: column
+  &-cont
+   margin-bottom: 15px
+   max-width: 100%
+  &1
+   .article-wrap
+    flex-direction: column-reverse
+  &-img
+   max-width: 100%
+@media(max-width: 767px)
+ .article
+  &1, &2
+   padding: 40px 0
+   h2
+    font-size: 20px
+    line-height: normal
+   p
+    font-size: 12px

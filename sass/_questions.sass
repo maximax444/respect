@@ -1,0 +1,287 @@
+.quest
+ &-top
+  background: #FCFAF9
+  padding-bottom: 105px
+  &-wrap
+   display: flex
+   justify-content: space-between
+   align-items: center
+   padding-right: 130px
+   margin-top: -25px
+  &-title
+   font-weight: bold
+   font-size: 36px
+   line-height: 50px
+   color: #000000
+   margin: 0
+   margin-bottom: 23px
+  &-descr
+   font-size: 18px
+   line-height: 28px
+   color: #000000
+   max-width: 400px
+  &-main
+   display: flex
+   flex-wrap: wrap
+   justify-content: space-between
+  &-block
+   width: 560px
+   max-width: 100%
+   background: #FFFFFF
+   border: 1px solid rgba(211, 211, 211, 0.5)
+   border-radius: 8px
+   &-active
+    position: relative
+    z-index: 2
+    box-shadow: 0px 20px 80px rgba(0, 0, 0, 0.1)
+   &-wrap
+    height: 79px
+    max-width: 48%
+    margin-bottom: 30px
+   &-title
+    height: 79px
+    display: flex
+    align-items: center
+    font-weight: 500
+    font-size: 16px
+    padding-left: 28px
+    padding-right: 60px
+    cursor: pointer
+    position: relative
+    &::after
+     content: ""
+     display: block
+     width: 30px
+     height: 30px
+     position: absolute
+     right: 19px
+     top: 24px
+     background: url("../img/quest-arrow.png") center no-repeat
+    &:hover::after
+     background: url("../img/quest-arrow2.png") center no-repeat
+     transform: rotate(180deg)
+    &-active
+     &::after
+      background: url("../img/quest-arrow2.png") center no-repeat
+     &:hover::after
+      transform: rotate(0deg)
+   &-descr
+    margin: 0 20px
+    padding: 30px 0
+    font-size: 15px
+    line-height: 26px
+    border-top: 1px solid #E9E9E9
+    display: none
+    a
+     text-decoration: none
+     color: #95E977
+    &-active
+     display: block
+ &-bottom
+  &-wrap
+   background: #FFFFFF
+   box-shadow: 0px 20px 80px rgba(0, 0, 0, 0.1)
+   border-radius: 8px
+   padding: 10px
+   height: 480px
+   position: relative
+   top: -45px
+   &2
+    border: 1px dashed rgba(0, 0, 0, 0.08)
+    border-radius: 8px
+    height: 100%
+    display: flex
+    justify-content: space-between
+    padding: 0 58px
+  &-cont
+   padding-top: 53px
+  &-title
+   font-weight: bold
+   font-size: 30px
+   line-height: 38px
+   color: #000000
+   margin-bottom: 20px
+  &-subtitle
+   font-size: 16px
+   line-height: 26px
+   color: #000000
+   margin-bottom: 32px
+   max-width: 365px
+  textarea
+   width: 304px
+   height: 119px
+   padding: 18px 22px
+   font-family: TT Norms
+   font-style: normal
+   font-weight: 300
+   font-size: 16px
+   line-height: 25px
+   background: #FCFCFC
+   border: 1px solid #ECECEC
+   border-radius: 4px
+   resize: none
+   margin-bottom: 27px
+   &:focus
+    outline: none
+  &-btn
+   width: 304px
+   height: 76px
+  &-right
+   display: flex
+   align-items: flex-end
+  &-img
+   display: flex
+   margin-bottom: -11px
+  &-info
+   padding-bottom: 45px
+   padding-right: 40px
+   margin-left: -50px
+   &-top
+    display: flex
+    align-items: center
+    margin-bottom: 22px
+   &-text
+    max-width: 90px
+    margin-left: 14px
+    font-size: 16px
+    line-height: 20px
+   &-name
+    width: 187px
+    min-height: 60px
+    border: 1px dashed rgba(#000000, 0.1)
+    border-radius: 6px
+    font-size: 14px
+    line-height: 25px
+    display: flex
+    justify-content: center
+    align-items: center
+    text-align: center
+    padding: 5px
+@media(max-width: 1199px)
+ .quest-bottom
+  &-wrap2
+   padding: 0 20px
+  &-cont
+   padding-top: 25px
+@media(max-width: 991px)
+ .quest
+  &-top
+   &-wrap
+    padding-right: 0
+    padding: 40px 0
+   &-img
+    width: 450px
+    img
+     max-width: 100%
+  &-bottom
+   &-cont
+    max-width: 360px
+    margin: 0 auto
+   &-wrap
+    height: auto
+    &2
+     display: block
+@media(max-width: 767px)
+ .quest
+  &-top
+   &-main
+   &-block
+    &-wrap
+     max-width: 100%
+     margin-bottom: 15px
+  &-bottom
+   &-right
+    justify-content: space-between
+   &-img
+    width: 300px
+    padding-top: 25px
+    img
+     max-width: 100%
+   &-info
+    padding-right: 0
+    padding-bottom: 10px
+@media(max-width: 575px)
+ .quest
+  &-top
+   padding-bottom: 80px
+   &-title
+    font-size: 22px
+    line-height: normal
+    margin-bottom: 15px
+   &-img
+    max-width: 100%
+    margin-top: 15px
+   &-descr
+    line-height: normal
+    font-size: 15px
+   &-wrap
+    display: block
+    margin-top: 0
+    padding-top: 25px
+   &-block
+    &-wrap
+     height: 60px
+    &-title
+     padding: 10px
+     padding-right: 40px
+     font-size: 14px
+     line-height: normal
+     height: 60px
+     &::after
+      width: 20px
+      height: 20px
+      background-size: cover
+      top: 20px
+      right: 15px
+    &-descr
+     margin: 0 10px
+     padding: 15px 0
+     font-size: 12px
+     line-height: normal
+  &-bottom
+   &-wrap
+    padding: 0
+    &2
+     border: 0
+     padding: 15px
+   &-cont
+    padding: 0
+    padding-bottom: 20px
+   &-title
+    font-size: 20px
+    line-height: normal
+    margin-bottom: 10px
+   &-subtitle
+    font-size: 14px
+    line-height: normal
+    margin-bottom: 15px
+   textarea
+    max-width: 100%
+    padding: 15px
+    font-size: 14px
+    margin-bottom: 15px
+   &-btn
+    width: 250px
+    height: 60px
+    font-size: 14px
+   &-img
+    width: 150px
+    padding-top: 0
+   &-info
+    &-top
+     margin-bottom: 10px
+    &-text
+     font-size: 14px
+     line-height: normal
+     margin-left: 5px
+    &-icon
+     width: 30px
+     height: 30px
+     img
+      max-width: 100%
+    &-name
+     width: 140px
+     padding: 5px
+     min-height: 40px
+     font-size: 12px
+     line-height: 16px

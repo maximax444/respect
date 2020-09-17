@@ -1,0 +1,912 @@
+.about
+ overflow: hidden
+ &-wrap
+  position: relative
+ &-top
+  background: #FBF8F6
+  border-radius: 8px
+  &-cloud
+   &1
+    position: absolute
+    top: 110px
+    left: -380px
+   &2
+    position: absolute
+    top: 120px
+    right: -320px
+   &3
+    position: absolute
+    top: 120px
+    left: -60px
+ &-title
+  margin-top: 66px
+  font-size: 35px
+  line-height: 45px
+  margin-bottom: 24px
+  text-align: center
+ &-subtitle
+  margin: 0 auto
+  margin-bottom: 59px
+  font-weight: 300
+  font-size: 17px
+  line-height: 27px
+  text-align: center
+  color: #000000
+  max-width: 425px
+ &-img
+  margin-left: -16px
+  margin-right: -16px
+  img
+   max-width: calc(100% + 32px)
+ &-feat
+  margin-top: -75px
+  margin-bottom: -116px
+  position: relative
+  z-index: 2
+  &-wrap
+   height: 191px
+   background: #FFFFFF
+   box-shadow: 0px 10px 40px rgba(0, 0, 0, 0.1)
+   border-radius: 8px
+   position: relative
+   padding: 10px
+   &::after
+    content: ""
+    display: block
+    background: #FFFFFF
+    box-shadow: 0px 20px 40px rgba(0, 0, 0, 0.1)
+    border-radius: 8px
+    height: 115px
+    width: 1060px
+    position: absolute
+    left: 55px
+    bottom: -24px
+    z-index: -1
+  &-cont
+   height: 100%
+   border: 1px dashed rgba(0, 0, 0, 0.08)
+   border-radius: 8px
+   padding: 31px 35px
+  &-title
+   margin-bottom: 30px
+   font-size: 18px
+   line-height: 24px
+   text-align: center
+  &-main
+   display: flex
+   justify-content: space-between
+  &-block
+   width: 270px
+   display: flex
+   align-items: center
+  &-img
+   margin-right: 22px
+  &-text
+   width: 190px
+   font-size: 14px
+   line-height: 17px
+ &-boss
+  background: url("../img/about-boss-bg.png") center no-repeat
+  background-size: cover
+  padding-top: 180px
+  &-arrow
+   text-align: center
+  &-wrap
+   padding-left: 60px
+   margin-top: -40px
+   display: flex
+   align-items: center
+  &-img
+   position: relative
+   display: flex
+   margin-right: 40px
+  &-cont
+   padding-top: 30px
+  &-title
+   margin-bottom: 30px
+   font-weight: bold
+   font-size: 35px
+   line-height: 45px
+  &-descr
+   max-width: 425px
+   font-weight: 300
+   font-size: 17px
+   line-height: 27px
+   margin-bottom: 30px
+  &-link
+   font-family: Muller
+   font-size: 14px
+   line-height: 14px
+   color: #E9AD77
+   border-bottom: 0.5px dashed #E9AD77
+   &:hover
+    color: #95E977
+    border-bottom: 0.5px dashed #95E977
+  &-quote
+   font-style: italic
+   font-weight: 500
+   font-size: 14px
+   line-height: 20px
+   margin-top: 50px
+   height: 120px
+   width: 343px
+   background: #FFFFFF
+   box-shadow: 0px 20px 80px rgba(0, 0, 0, 0.1)
+   border-radius: 8px
+   position: relative
+   padding: 35px 23px
+   &::before
+    content: ""
+    display: block
+    position: absolute
+    top: 6px
+    left: 6px
+    width: 329px
+    height: 106px
+    border-radius: 8px
+    border: 1px dashed rgba(0, 0, 0, 0.08)
+   &::after
+    content: ""
+    display: block
+    width: 45px
+    height: 45px
+    z-index: 2
+    background: #FBF8F6 url(../img/stock-quote.png) center no-repeat
+    border-radius: 50%
+    position: absolute
+    left: 20px
+    top: -21px
+ &-info
+  &-wrap
+   display: flex
+   justify-content: space-between
+   align-items: flex-end
+  &-img
+   margin-right: -63px
+   margin-left: -100px
+   width: 559px
+   display: flex
+  &-cont
+   width: 779px
+   display: flex
+  &-tabs
+   width: 259px
+   display: flex
+   flex-direction: column
+   align-items: flex-start
+   &-block
+    font-weight: 500
+    font-size: 18px
+    line-height: 20px
+    margin: 15px 0
+    border-bottom: 1px dashed #000000
+    &:hover
+     color: #95E977
+     border-bottom: 1px dashed #95E977
+     cursor: pointer
+    &-active
+     color: #E9AD77
+     border-bottom: 1px dashed #E9AD77
+     &:hover
+      color: #E9AD77
+      border-bottom: 1px dashed #E9AD77
+  &-main
+   width: 520px
+   padding-left: 61px
+   border-left: 1px dashed rgba(0,0,0,0.1)
+   padding-bottom: 45px
+   display: none
+   &-active
+    display: block
+  &-title
+   font-weight: bold
+   font-size: 30px
+   line-height: 50px
+   color: #E9AD77
+   margin-bottom: 34px
+  &-block
+   max-width: 100%
+   margin-bottom: 13px
+ &-team
+  padding-top: 150px
+  padding-bottom: 70px
+  background: #FBF8F6
+  border-radius: 8px
+  &-nav
+   width: 147px
+   display: flex
+   justify-content: space-between
+  &-top
+   display: flex
+   justify-content: space-between
+   align-items: center
+   margin-bottom: 30px
+  &-title
+   font-size: 36px
+   line-height: 50px
+   max-width: 675px
+  &-subtitle
+   font-weight: 300
+   font-size: 17px
+   line-height: 27px
+   margin-bottom: 69px
+  &-block
+   height: 460px
+   width: 270px
+   padding: 17px
+   box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.1)
+   border-radius: 8px
+   background-color: #fff
+   margin: 15px
+  &-img
+   height: 258px
+   width: 100%
+   margin-bottom: 12px
+   img
+    width: 100%
+    height: 100%
+    object-fit: cover
+  &-name
+   margin-bottom: 5px
+   font-weight: 500
+   font-size: 20px
+   line-height: 50px
+  &-el
+   margin-bottom: 8px
+   display: flex
+   align-items: center
+   font-weight: 300
+   font-size: 12px
+   line-height: 15px
+   img
+    margin-right: 14px
+ &-create
+  background-color: #fff
+  &-title
+   margin-bottom: 67px
+  &-bottom
+   &-block
+    background: #FBF8F6
+   &-title
+    font-size: 18px
+    line-height: 25px
+    margin-bottom: 19px
+    &-wrap
+     padding-top: 20px
+   &-descr
+    font-size: 14px
+    line-height: 18px
+ &-docs
+  padding-bottom: 50px
+  &-title
+   font-size: 36px
+   line-height: 50px
+   margin-bottom: 88px
+  &-block
+   background: #FBF8F6
+   border-radius: 8px
+   width: 270px
+   height: 340px
+   display: flex
+   justify-content: center
+   align-items: center
+   margin: 0 auto
+   img
+    max-width: 100%
+    max-height: 100%
+  &-slider
+   position: relative
+  &-prev
+   position: absolute
+   top: 129px
+   left: -30px
+   z-index: 2
+  &-next
+   position: absolute
+   top: 129px
+   right: -30px
+   z-index: 2
+ &-when
+  background: #FBF8F6
+  border-radius: 8px
+  padding: 105px 0
+  padding-bottom: 60px
+ &-coop
+  padding-bottom: 140px
+  &-wrap
+   height: 623px
+   background: #FFFFFF
+   box-shadow: 0px 20px 80px rgba(0, 0, 0, 0.1)
+   border-radius: 8px
+   position: relative
+   padding: 28px 26px
+   &::before
+    content: ""
+    display: block
+    border-radius: 8px
+    height: calc(100% - 20px)
+    width: calc(100% - 20px)
+    border: 1px dashed rgba(0, 0, 0, 0.08)
+    position: absolute
+    left: 9px
+    top: 9px
+  &-cont
+   height: 100%
+   background: #FFFFFF
+   box-shadow: 0px 20px 80px rgba(0, 0, 0, 0.05)
+   border-radius: 8px
+   padding: 40px 110px
+  &-title
+   max-width: 410px
+   margin: 0 auto
+   text-align: center
+   margin-bottom: 45px
+   font-size: 36px
+   line-height: 50px
+  &-main
+   display: flex
+   justify-content: space-between
+  &-block
+   width: 280px
+   border-radius: 8px
+  &-img
+   width: 100%
+   height: 200px
+   border-radius: 8px 8px 0 0
+   overflow: hidden
+   img
+    width: 100%
+    height: 100%
+    object-fit: cover
+  &-text
+   position: relative
+   top: -30px
+   height: 156px
+   background: #FFFFFF
+   box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.02), 0px -10px 10px rgba(0, 0, 0, 0.03)
+   border-radius: 4px
+   padding: 27px 23px
+  &-name
+   font-weight: bold
+   font-size: 17px
+   line-height: 20px
+   height: 60px
+   margin-bottom: 20px
+   overflow: hidden
+  &-link
+   span
+    font-family: Muller
+    font-size: 14px
+    line-height: 14px
+    color: #E9AD77
+    border-bottom: 0.5px dashed #E9AD77
+   img
+    margin-left: 4px
+    transition: all 0.3s
+   &:hover
+    span
+     color: #95E977
+     border-bottom: 0.5px dashed #95E977
+    img
+     margin-left: 10px
+ &-reviews
+  padding-top: 110px
+  padding-bottom: 100px
+  background: url("../img/about-reviews.png") center no-repeat
+  background-size: cover
+  &-title
+   max-width: 710px
+   margin: 0 auto
+   text-align: center
+   margin-bottom: 34px
+   font-size: 36px
+   line-height: 50px
+  &-subtitle
+   max-width: 530px
+   margin: 0 auto
+   margin-bottom: 49px
+   text-align: center
+   font-weight: 300
+   font-size: 17px
+   line-height: 27px
+  &-wrap
+   height: 371px
+   background: #FFFFFF
+   box-shadow: 0px 20px 80px rgba(0, 0, 0, 0.05)
+   border-radius: 8px
+   padding: 26px
+   display: flex
+   justify-content: space-between
+   align-items: center
+  &-autor
+   width: 162px
+   text-align: center
+   padding-top: 13px
+   border-right: 1px dashed rgba(0,0,0,0.1)
+   &-img
+    width: 71px
+    height: 71px
+    position: relative
+    margin: 0 auto
+    margin-bottom: 17px
+    img
+     height: 100%
+     width: 100%
+     object-fit: cover
+     border-radius: 50%
+   &-soc
+    position: absolute
+    top: 2px
+    right: -7px
+   &-name
+    padding-bottom: 11px
+    border-bottom: 1px dashed #E5E5E5
+    font-weight: 500
+    font-size: 15px
+    line-height: 18px
+   &-city
+    font-size: 12px
+    line-height: 18px
+    padding-top: 16px
+    margin-bottom: 18px
+   &-car
+    margin-bottom: 16px
+    font-size: 12px
+    line-height: 14px
+    display: flex
+    flex-direction: column
+    align-items: center
+    a 
+     margin-top: 3px
+     font-size: 12px
+     line-height: 14px
+     color: #E9AD77
+     border-bottom: 0.5px dashed #E9AD77
+     &:hover
+      color: #95E977
+      border-bottom: 0.5px dashed #95E977
+   &-star
+    font-size: 12px
+    line-height: 14px
+    span
+     display: flex
+     justify-content: center
+     align-items: center
+     margin: 0 auto
+     margin-top: 7px
+     width: 40px
+     height: 22px
+     background: #F8DD08
+     border-radius: 99px
+     font-family: Muller
+     font-size: 12px
+     line-height: 14px
+     padding-top: 1px
+     img
+      margin-right: 3px
+      margin-top: -2px
+  &-main
+   max-width: 560px
+   padding: 0 15px
+   &-top
+    display: flex
+    justify-content: space-between
+    align-items: center
+    margin-bottom: 12px
+   &-date
+    font-weight: 300
+    font-size: 10px
+    line-height: 14px
+   &-recomend
+    width: 160px
+    height: 22px
+    display: flex
+    justify-content: center
+    align-items: center
+    background: #F5FDF2
+    border-radius: 3px
+    font-size: 10px
+    line-height: 18px
+    color: #80C867
+    img
+     margin-right: 7px
+   &-name
+    font-weight: 500
+    font-size: 18px
+    line-height: 25px
+    margin-bottom: 8px
+   &-descr
+    font-size: 12px
+    margin-bottom: 15px
+    line-height: 18px
+   &-link
+    font-size: 12px
+    line-height: 14px
+    color: #E9AD77
+    border-bottom: 0.5px dashed #E9AD77
+    &:hover
+     color: #95E977
+     border-bottom: 0.5px dashed #95E977
+   &-bottom
+    border-top: 1px dashed #E5E5E5
+    padding-top: 25px
+    margin-top: 25px
+    display: flex
+    justify-content: space-between
+   &-plus
+    width: 250px
+    img
+     margin-bottom: 7px
+    &-title
+     font-size: 12px
+     line-height: 18px
+     color: #000000
+    &-text
+     font-weight: 500
+     font-size: 12px
+     line-height: 18px
+     color: #000000
+   &-minus
+    width: 250px
+    img
+     margin-bottom: 7px
+  &-img
+   padding-right: 13px
+   height: 282px
+   width: 281px
+   img
+    width: 100%
+    height: 100%
+    object-fit: cover
+    border-radius: 4px
+ &-thanks
+  padding-top: 60px
+  padding-bottom: 75px
+  &-cont
+   padding-top: 115px
+   width: 617px
+  &-img
+   width: 643px
+   margin-right: -120px
+  &-wrap
+   display: flex
+  &-title
+   font-size: 35px
+   margin-bottom: 25px
+   max-width: 500px
+   line-height: 45px
+  &-descr
+   font-weight: 300
+   font-size: 18px
+   line-height: 25px
+   margin-bottom: 55px
+   max-width: 415px
+  &-bottom
+   display: flex
+   justify-content: space-between
+  &-btn
+   width: 251px
+   height: 76px
+   &-o
+    width: 337px
+    height: 76px
+@media(max-width: 1199px)
+ .about
+  &-feat
+   &-wrap
+    &::after
+     width: calc( 100% - 110px ) 
+  &-img
+   margin-left: 0
+   margin-right: 0
+  &-boss
+   &-wrap
+    padding-left: 0
+   &-img
+    width: 400px
+    img
+     max-width: 100%
+  &-info
+   padding-top: 40px
+   &-img
+    width: 250px
+    img
+     max-width: 150%
+  &-coop
+   &-cont
+    padding-left: 25px
+    padding-right: 25px
+@media(max-width: 991px)
+ .about
+  &-top
+   &-cloud2
+    top: -50px
+  &-feat
+   margin-bottom: -166px
+   &-title
+    font-size: 14px
+    line-height: normal
+    margin-bottom: 10px
+   &-wrap
+    height: auto
+   &-cont
+    padding: 15px 15px
+    padding-bottom: 0
+    height: auto
+   &-main
+    flex-wrap: wrap
+    justify-content: center
+    height: auto
+   &-block
+    margin: 15px
+  &-boss
+   &-wrap
+    align-items: flex-end
+    margin-top: 0
+   &-cont
+    padding: 25px 0
+  &-info
+   &-cont
+    width: 100%
+  &-team
+   padding-top: 60px
+   &-title
+    font-size: 22px
+    line-height: normal
+    max-width: 450px
+   &-subtitle
+    font-size: 16px
+    margin-bottom: 40px
+  &-docs
+   &-title
+    font-size: 28px
+    line-height: normal
+    margin-bottom: 40px
+  &-coop
+   &-cont
+    padding: 25px 10px
+    padding-bottom: 0
+   &-wrap
+    height: auto
+    padding: 15px
+   &-block
+    width: 220px
+  &-reviews
+   &-wrap
+    flex-wrap: wrap
+    padding: 15px 10px
+    height: auto
+    justify-content: center
+   &-main
+    max-width: 550px
+   &-img
+    padding-right: 0
+    margin-top: 20px
+  &-thanks
+   &-btn
+    &-o
+     width: 280px
+     margin-left: 15px
+@media(max-width: 767px)
+ .about
+  &-feat
+   &-block
+    width: 210px
+   &-img
+    width: 40px
+    height: 40px
+    margin-right: 10px
+    img
+     max-width: 100%
+   &-text
+    font-size: 12px
+  &-boss
+   &-wrap
+    flex-direction: column-reverse
+   &-img
+    width: 100%
+   &-cont
+    width: 100%
+  &-info
+   &-cont
+    display: block
+   &-main
+    padding-left: 0
+    border: 0
+    width: 100%
+   &-tabs
+    flex-direction: row
+    width: 100%
+    margin-bottom: 25px
+    &-block
+     margin: 0 10px
+     &:first-child
+      margin-left: 0
+  &-docs
+   &-title
+    font-size: 22px
+  &-coop
+   padding-bottom: 40px
+   &-main
+    display: block
+   &-block
+    margin: 0 auto
+   &-title
+    font-size: 22px
+    line-height: normal
+    margin-bottom: 25px
+   &-name
+    height: auto
+   &-text
+    padding: 15px
+    height: auto
+  &-reviews
+   &-main
+    max-width: 380px
+   &-autor
+    max-width: 150px
+  &-thanks
+   padding: 40px 0
+   &-wrap
+    display: block
+   &-cont
+    padding-top: 30px
+    width: 100%
+   &-btn
+    width: 220px
+    &-o
+     width: 290px
+@media(max-width: 575px)
+ .about
+  &-img
+   img
+    max-width: 100%
+  &-title
+   font-size: 22px
+   line-height: normal
+   margin-top: 35px
+  &-subtitle
+   font-size: 14px
+   line-height: normal
+   margin-bottom: 15px
+  &-top
+   &-cloud1, &-cloud2, &-cloud3
+    display: none
+  &-feat
+   margin-top: -60px
+   margin-bottom: -220px
+   &-block
+    margin: 5px 0
+  &-boss
+   padding-top: 220px
+   &-title
+    font-size: 22px
+    line-height: normal
+    margin-bottom: 15px
+   &-descr
+    font-size: 14px
+    line-height: normal
+    margin-bottom: 15px
+   &-link
+    font-size: 12px
+   &-quote
+    max-width: 100%
+    margin-top: 35px
+   &-img
+    margin-right: 0
+  &-info
+   &-title
+    font-size: 22px
+    line-height: normal
+    margin-bottom: 15px
+   &-tabs
+    &-block
+     font-size: 12px
+     line-height: normal
+  &-team
+   padding-top: 40px
+   padding-bottom: 30px
+   &-top
+    display: block
+    margin-bottom: 25px
+   &-title
+    font-size: 18px
+    margin-bottom: 15px
+   &-subtitle
+    font-size: 14px
+    line-height: normal
+    margin-bottom: 15px
+   &-block
+    height: auto
+   &-nav
+    width: 100px
+   &-prev, &-next
+    width: 40px
+    height: 40px
+    svg
+     max-width: 65%
+  &-docs
+   padding-bottom: 0px
+   .slick-dots
+    margin-top: 20px
+   &-prev
+    top: 150px
+    width: 40px
+    height: 40px
+    left: -10px
+    svg
+     max-width: 65%
+   &-next
+    top: 150px
+    width: 40px
+    height: 40px
+    right: -10px
+    svg
+     max-width: 65%
+  &-when
+   padding: 40px 0
+   padding-bottom: 15px
+  &-reviews
+   padding: 40px 0
+   &-title
+    font-size: 22px
+    line-height: normal
+    margin-bottom: 20px
+   &-subtitle
+    font-size: 14px
+    line-height: normal
+    margin-bottom: 15px
+   &-autor
+    border: 0
+    width: 100%
+    margin-bottom: 15px
+   &-main
+    width: 100%
+    padding: 0
+    &-top
+     display: block
+    &-date
+     margin-bottom: 5px
+    &-name
+     font-size: 16px
+    &-descr
+     font-size: 12px
+     line-height: normal
+     margin-bottom: 10px
+    &-bottom
+     display: block
+     margin-top: 15px
+     padding-top: 10px
+    &-plus
+     margin-bottom: 15px
+     img
+      margin-bottom: 4px
+    &-minus
+     img
+      margin-bottom: 4px
+  &-thanks
+   &-title
+    font-size: 22px
+    line-height: normal
+   &-cont
+    padding-top: 0
+   &-descr
+    font-size: 14px
+    line-height: normal
+    margin-bottom: 25px
+   &-bottom
+    display: block
+   &-btn
+    height: 60px
+    width: 200px
+    font-size: 14px
+    margin-bottom: 10px
+    &-o
+     font-size: 14px
+     width: 200px
+     height: 60px
+     margin-left: 0
+   &-img
+    width: 100%
+    img
+     max-width: 100%

@@ -1,0 +1,2324 @@
+.lend
+ overflow: hidden
+ &-video
+  position: fixed
+  left: 0
+  top: 60%
+  z-index: 3
+  &-close
+   position: absolute
+   top: 12px
+   right: 11px
+   z-index: 3
+   cursor: pointer
+  &-main
+   width: 100%
+   height: 100%
+   position: absolute
+   top: 0
+   left: 0
+   z-index: 2
+   cursor: pointer
+  &-play
+   width: 52px
+   height: 52px
+   margin: 0 auto
+   position: relative
+   top: 0
+   left: 0
+   margin-top: 23px
+   margin-bottom: 11px
+   .how-top-video-play1, .how-top-video-play2
+    width: 52px
+    height: 52px
+   &-main
+    width: 52px
+    height: 52px
+  &-text
+   font-size: 12px
+   line-height: 15px
+   text-align: center
+   color: #FFFFFF
+ &-text
+  background: #FBF8F6
+ .quest-top-wrap
+  margin-top: 0
+  padding-top: 40px
+ .home-work
+  background-color: #fff
+  &-info
+   box-shadow: 0px 20px 80px rgba(0, 0, 0, 0.05)
+ .del-feat-block
+  padding: 0 22px
+ &-top
+  background: #FBF8F6
+  padding-bottom: 80px
+  &-wrap
+   display: flex
+   justify-content: space-between
+  &-title
+   padding-top: 60px
+   margin-bottom: 35px
+   font-size: 40px
+   line-height: 45px
+   color: #000000
+  &-btn
+   width: 337px
+   height: 76px
+  &-img
+   width: 650px
+   height: 650px
+   border-radius: 50%
+   background: rgba(255, 255, 255, 0.4)
+   display: flex
+   justify-content: center
+   align-items: center
+   margin-right: -34px
+   img
+    max-width: 100%
+    max-height: 100%
+  &-drop
+   background: #FFFFFF
+   border-radius: 8px
+   box-shadow: 0px 20px 80px rgba(0, 0, 0, 0.1)
+   width: 274px
+   padding: 25px 20px
+   padding-bottom: 0
+   position: absolute
+   display: none
+   z-index: 2
+   top: 105%
+   left: 60px
+   &-bottom
+    border-top: 1px solid #E9E9E9
+    padding: 10px 0
+    padding-bottom: 15px
+    a
+     font-size: 14px
+     line-height: 26px
+     color: #E9AD77
+     border-bottom: 1px dashed #E9AD77
+     &:hover
+      color: #95E977
+      border-bottom: 1px dashed  #95E977
+   ul
+    list-style-type: none
+    padding: 0
+    margin: 0
+    li
+     font-size: 12px
+     line-height: 14px
+     color: #111111
+     position: relative
+     padding-left: 21px
+     margin-bottom: 15px
+     &::before
+      content: ""
+      position: absolute
+      top: 50%
+      margin-top: -4px
+      left: 0px
+      background: #95E977
+      width: 8px
+      height: 8px
+      border-radius: 50%
+  &-subtitle
+   position: relative
+   &:hover
+    .lend-top-drop
+     display: block
+ &-prop
+  padding-top: 55px
+  padding-bottom: 160px
+  background: #FBF8F6
+  border-radius: 8px
+  &-top
+   display: flex
+   justify-content: space-between
+   &-left
+    padding-top: 70px
+   &-right
+    width: 485px
+    background: url("../img/lend-prop-top-img.png") center no-repeat
+    height: 547px
+    position: relative
+   &-title
+    margin-bottom: 75px
+    font-size: 40px
+    line-height: 50px
+    b
+     display: block
+   &-wrap
+    display: flex
+    justify-content: space-between
+    width: 600px
+   &-feat
+    width: 290px
+    height: 164px
+    background: #FFFFFF
+    box-shadow: 0px 20px 80px rgba(0, 0, 0, 0.1)
+    border-radius: 8px
+    position: relative
+    padding: 20px
+    padding-top: 38px
+    &-title
+     font-weight: bold
+     font-size: 14px
+     line-height: 20px
+     margin-bottom: 4px
+    &-descr
+     font-size: 13px
+     line-height: 20px
+    &:nth-child(1)::before
+     content: ""
+     display: block
+     width: 45px
+     height: 45px
+     border-radius: 50%
+     background: #FBF8F6 url("../img/lend-prop1.png") center no-repeat
+     position: absolute
+     top: -14px
+     left: 23px
+     z-index: 2
+    &:nth-child(2)::before
+     content: ""
+     display: block
+     width: 45px
+     height: 45px
+     border-radius: 50%
+     background: #FBF8F6 url("../img/lend-prop2.png") center no-repeat
+     position: absolute
+     top: -14px
+     left: 23px
+     z-index: 2
+    &::after
+     content: ""
+     display: block
+     border-radius: 8px
+     border: 1px dashed rgba(0, 0, 0, 0.08)
+     width: 276px
+     height: 150px
+     position: absolute
+     top: 6px
+     left: 6px
+   &-plus
+    position: absolute
+    width: 30px
+    height: 30px
+    &-text
+     display: none
+     padding: 15px 39px
+     justify-content: center
+     align-items: center
+     width: 293px
+     height: 132px
+     font-weight: 300
+     font-size: 13px
+     border-radius: 8px
+     background: url("../img/lend-prop-plus-bg.png") center no-repeat
+     position: absolute
+     left: 13px
+     top: -51px
+     z-index: 2
+    &:hover
+     cursor: pointer
+     .lend-prop-top-plus-text
+      display: flex
+    &:nth-child(1)
+     top: 10%
+     left: 35%
+    &:nth-child(2)
+     left: 18%
+     top: 40%
+    &:nth-child(3)
+     top: 57%
+     left: 35%
+    &:nth-child(4)
+     left: 10%
+     top: 62%
+    &:nth-child(5)
+     top: 82%
+     left: 22%
+    &:nth-child(6)
+     top: 65%
+     left: 60%
+     .lend-prop-top-plus-text
+      background: url("../img/lend-prop-plus-bg2.png") center no-repeat
+      left: auto
+      right: 13px
+    &:nth-child(7)
+     left: 83%
+     top: 43%
+     .lend-prop-top-plus-text
+      background: url("../img/lend-prop-plus-bg2.png") center no-repeat
+      left: auto
+      right: 13px
+    &-icon
+     background: #E9AD77
+     position: relative
+     width: 30px
+     height: 30px
+     color: #ffffff
+     display: flex
+     justify-content: center
+     align-items: center
+     font-weight: 500
+     font-size: 16px
+     z-index: 1
+     border-radius: 50%
+     box-shadow: 0px 8px 40px rgba(233, 173, 119, 0.5), inset 0px 10px 12px rgba(255, 255, 255, 0.2)
+     &:hover
+      z-index: 3
+  &-bot
+   height: 392px
+   background: #FFFFFF
+   box-shadow: 0px 20px 80px rgba(0, 0, 0, 0.1)
+   border-radius: 8px
+   padding: 8px
+   &-wrap
+    height: 100%
+    border: 1px dashed rgba(0, 0, 0, 0.08)
+    border-radius: 8px
+    padding: 15px
+    display: flex
+   &-cont
+    padding: 20px 30px
+    width: calc(100% - 366px)
+   &-img
+    width: 366px
+    height: 346px
+    border-radius: 8px
+    overflow: hidden
+    img
+     width: 100%
+     height: 100%
+     object-fit: cover
+   &-title
+    font-weight: bold
+    font-size: 24px
+    line-height: 45px
+    color: #000000
+    margin-bottom: 16px
+   ul
+    list-style-type: none
+    padding: 0
+    margin: 0
+    display: flex
+    justify-content: space-between
+    flex-wrap: wrap
+    li
+     width: 320px
+     padding-left: 48px
+     font-weight: 300
+     font-size: 14px
+     line-height: 22px
+     margin-bottom: 15px
+     position: relative
+     &::before
+      content: ""
+      display: block
+      width: 35px
+      height: 35px
+      position: absolute
+      top: 4px
+      left: 0
+      background: url("../img/stock-in-main-list.png") center no-repeat
+ &-test
+  padding-top: 60px
+  padding-bottom: 110px
+  &-cont
+   padding-top: 90px
+   width: 400px
+  &-title
+   font-size: 35px
+   line-height: 45px
+   margin-bottom: 40px
+  &-descr
+   margin-bottom: 80px
+   font-size: 15px
+   line-height: 23px
+  &-btn
+   width: 266px
+   height: 76px
+  &-wrap
+   display: flex
+   justify-content: space-between
+  &-img
+   width: 670px
+   img
+    max-width: 100%
+ &-afraid
+  padding-top: 140px
+  background: #FCFAF9
+  border-radius: 6px
+  &-title
+   font-size: 40px
+   line-height: 45px
+   margin-bottom: 35px
+   text-align: center
+  &-subtitle
+   font-size: 16px
+   line-height: 22px
+   text-align: center
+   margin-bottom: 15px
+  &-wrap
+   display: flex
+   margin-bottom: 35px
+  &-block
+   width: 20%
+   text-align: center
+  &-name
+   margin-top: 35px
+   margin-bottom: 14px
+   font-weight: bold
+  &-descr
+   font-weight: 300
+   font-size: 14px
+   line-height: 22px
+   margin-bottom: 12px
+   padding: 0 25px
+  &-link
+   font-size: 18px
+   line-height: 26px
+   color: #E9AD77
+   border-bottom: 0.5px dashed #E9AD77
+   &:hover
+    color: #95E977
+    border-bottom: 0.5px dashed #95E977
+  &-bottom
+   &-quest
+    width: 72px
+    height: 72px
+    display: flex
+    justify-content: center
+    align-items: center
+    box-shadow: 0px 8px 40px rgba(233, 173, 119, 0.5), inset 0px 10px 12px rgba(255, 255, 255, 0.2)
+    border-radius: 50%
+    position: absolute
+    top: 50%
+    margin-top: -36px
+    right: -40px
+    &:hover
+     box-shadow: 0px 8px 40px rgba(233, 173, 119, 0.7), inset 0px 10px 12px rgba(255, 255, 255, 0.4)
+   &-wrap
+    display: flex
+    justify-content: space-between
+    align-items: center
+   &-img
+    margin-right: -200px
+    margin-left: -50px
+   &-block
+    width: 380px
+    height: 116px
+    background: #FFFFFF
+    box-shadow: 0px 20px 80px rgba(0, 0, 0, 0.04)
+    border-radius: 8px
+    margin-bottom: 50px
+    display: flex
+    flex-direction: column
+    align-items: flex-start
+    justify-content: center
+    position: relative
+    padding-left: 27px
+    padding-right: 38px
+    &::before
+     content: ""
+     display: block
+     width: calc( 100% - 14px )
+     height: calc(100% - 10px)
+     border: 1px dashed rgba(0, 0, 0, 0.08)
+     border-radius: 8px
+     position: absolute
+     top: 4px
+     left: 6px
+   &-name
+    font-weight: bold
+    font-size: 13px
+    line-height: 20px
+    color: #000
+    position: relative
+    z-index: 1
+   &-link
+    font-weight: bold
+    font-size: 13px
+    line-height: 20px
+    color: #E9AD77
+    text-decoration: underline
+    text-decoration-style: dashed
+    position: relative
+    z-index: 1
+    &:hover
+     color: #95E977
+ &-dez
+  background: #FBF8F6
+  border-radius: 8px
+  padding-top: 130px
+  padding-bottom: 100px
+  &-title
+   font-size: 40px
+   line-height: 50px
+   margin-bottom: 20px
+   text-align: center
+  &-subtitle
+   font-size: 14px
+   margin-bottom: 55px
+   line-height: 20px
+   text-align: center
+  &-btn
+   margin: 0 auto
+   margin-top: 70px
+   width: 491px
+   height: 76px
+  &-wrap
+   background: #FFFFFF
+   box-shadow: 0px 20px 80px rgba(0, 0, 0, 0.1)
+   border-radius: 8px
+   padding: 9px 10px
+   &2
+    border: 1px dashed rgba(0, 0, 0, 0.08)
+    border-radius: 8px
+    display: flex
+    padding: 15px
+  &-list
+   margin: 0
+   padding: 0
+   list-style-type: none
+   width: 300px
+   li
+    padding-left: 51px
+    font-size: 14px
+    line-height: 18px
+    margin-bottom: 15px
+    padding-right: 15px
+    position: relative
+    b 
+     display: block
+     font-size: 16px
+     line-height: 22px
+     margin-bottom: 4px
+    &::before
+     content: ""
+     display: block
+     position: absolute
+     top: 4px
+     left: 0
+     width: 34px
+     height: 34px
+     background: url("../img/stock-in-main-list.png") center no-repeat
+     background-size: cover
+  &-cont
+   display: flex
+   align-items: center
+  &-link
+   padding-left: 51px
+   display: block
+   font-weight: 500
+   font-size: 13px
+   line-height: 22px
+   color: #E9AD77
+   text-decoration: underline
+   text-decoration-style: dashed
+   margin-top: 40px
+   &:hover
+    color: #95E977
+ &-time
+  padding-top: 110px
+  padding-bottom: 130px
+  &-title
+   font-size: 40px
+   line-height: 50px
+   margin-bottom: 30px
+   text-align: center
+   &2
+    margin: 0 auto
+    margin-bottom: 35px
+    font-size: 24px
+    line-height: 34px
+    max-width: 630px
+    text-align: center
+    margin-top: 80px
+  &-subtitle
+   font-size: 14px
+   text-align: center
+   margin-bottom: 65px
+   line-height: 20px
+   &2
+    text-align: center
+    margin: 0 auto
+    margin-bottom: 35px
+    max-width: 336px
+    font-weight: 500
+    font-size: 16px
+    line-height: 24px
+    span
+     font-weight: 300
+     font-style: italic
+     font-size: 13px
+  &-img
+   position: relative
+  &-plus
+   &1
+    position: absolute
+    top: 20%
+    left: 30%
+    border-radius: 50%
+    display: flex
+    box-shadow: 0px 8px 40px rgba(233, 173, 119, 0.5), inset 0px 10px 12px rgba(255, 255, 255, 0.2)
+    &:hover
+     box-shadow: 0px 8px 40px rgba(233, 173, 119, 0.7), inset 0px 10px 12px rgba(255, 255, 255, 0.4)
+     cursor: pointer
+   &2
+    position: absolute
+    right: 40%
+    bottom: 15%
+    border-radius: 50%
+    display: flex
+    box-shadow: 0px 8px 40px rgba(233, 173, 119, 0.5), inset 0px 10px 12px rgba(255, 255, 255, 0.2)
+    &:hover
+     box-shadow: 0px 8px 40px rgba(233, 173, 119, 0.7), inset 0px 10px 12px rgba(255, 255, 255, 0.4)
+     cursor: pointer
+  &-wrap
+   display: flex
+   justify-content: space-between
+   align-items: center
+  &-block
+   width: 250px
+   height: 160px
+   border: 1px dashed rgba(0, 0, 0, 0.08)
+   border-radius: 8px
+   padding: 30px 17px
+   position: relative
+   &2
+    background: #FFFFFF
+    box-shadow: 0px 20px 80px rgba(0, 0, 0, 0.04)
+    height: 200px
+    width: 250px
+    border-radius: 8px
+    padding: 15px 24px
+  &-top
+   display: flex
+   align-items: center
+   position: absolute
+   left: 17px
+   top: -19px
+   background-color: #fff
+   font-weight: 300
+   font-size: 13px
+   line-height: 26px
+   img
+    margin-right: 10px
+   b
+    margin-left: 4px
+   &2
+    display: flex
+    align-items: center
+    font-weight: 300
+    font-size: 13px
+    line-height: 26px
+    margin-bottom: 14px
+    img
+     margin-right: 10px
+  &-text
+   font-size: 14px
+   line-height: 20px
+   b 
+    display: block
+   span
+    font-weight: 500
+    font-size: 13px
+    line-height: 20px
+    color: #95E977
+  &-drop
+   position: absolute
+   display: none
+   top: 110%
+   left: 0
+   background: #FFFFFF
+   box-shadow: 0px 20px 80px rgba(0, 0, 0, 0.04)
+   border-radius: 8px
+   padding: 20px 30px
+   width: 270px
+   z-index: 2
+   &-title
+    font-weight: bold
+    font-size: 14px
+    line-height: 20px
+    color: #000000
+   &-subtitle
+    font-weight: 400
+    font-size: 10px
+    line-height: 14px
+    color: #000000
+   &-text
+    font-weight: 300
+    font-size: 14px
+    line-height: 20px
+    color: #000000
+    margin-top: 10px
+   &::after
+    content: ""
+    display: block
+    height: calc(100% - 10px)
+    width: calc(100% - 10px)
+    position: absolute
+    top: 5px
+    left: 5px
+    border: 1px dashed rgba(0, 0, 0, 0.08)
+    border-radius: 8px
+  &-plus1:hover, &-plus2:hover
+   .lend-time-drop
+    display: block
+ &-new
+  padding-top: 130px
+  padding-bottom: 280px
+  &-wrapper
+   position: relative
+  &-title
+   font-size: 40px
+   margin-bottom: 30px
+   line-height: 50px
+  &-subtitle
+   font-size: 14px
+   margin-bottom: 55px
+   line-height: 20px
+  &-wrap
+   width: 585px
+   display: flex
+   justify-content: space-between
+   flex-wrap: wrap
+   margin-bottom: 24px
+  &-block
+   padding: 39px 25px 33px 23px
+   width: 274px
+   height: 132px
+   background-color: #fff
+   box-shadow: 0px 20px 80px rgba(0, 0, 0, 0.1)
+   border-radius: 8px
+   font-weight: 400
+   font-size: 14px
+   line-height: 20px
+   color: #111111
+   position: relative
+   margin-bottom: 38px 
+   &::after
+    content: ""
+    display: block
+    width: calc(100% - 14px)
+    height: calc(100% - 14px)
+    position: absolute
+    top: 6px
+    left: 6px
+    border: 1px dashed rgba(0, 0, 0, 0.08)
+    border-radius: 8px
+   &::before
+    content: ""
+    display: block
+    width: 45px
+    height: 45px
+    z-index: 2
+    background: #FBF8F6 url(../img/stock-in-main-list.png) center no-repeat
+    border-radius: 50%
+    position: absolute
+    left: 20px
+    top: -21px
+  &-img
+   position: absolute
+   bottom: -52px
+   right: -135px
+  &-bottom
+   display: flex
+   align-items: center
+   margin-left: -40px
+   font-size: 18px
+   line-height: 28px
+   a
+    text-decoration: underline
+    text-decoration-style: dashed
+    color: #E9AD77
+    &:hover
+     color: #95E977
+   img
+    margin-right: 20px
+ &-others
+  border-radius: 8px
+  background: #FCFAF9 url("../img/lend-others-bg.png") right bottom no-repeat
+  padding-bottom: 120px
+ &-other
+  height: 357px
+  background: #FFFFFF
+  box-shadow: 0px 20px 80px rgba(0, 0, 0, 0.1)
+  border-radius: 8px
+  padding: 13px 14px
+  position: relative
+  top: -166px
+  margin-bottom: 20px
+  &-wrap
+   height: 100%
+   border-radius: 8px
+   border: 1px dashed rgba(0, 0, 0, 0.08)
+   padding: 13px 10px
+   &2
+    background: #FFFFFF
+    box-shadow: 0px 20px 80px rgba(0, 0, 0, 0.05)
+    border-radius: 8px
+    height: 100%
+    display: flex
+    align-items: center
+    justify-content: space-between
+  &-cont
+   width: 50%
+  &-title
+   font-size: 30px
+   margin-bottom: 19px
+   line-height: 34px
+  &-subtitle
+   font-size: 15px
+   margin-bottom: 38px
+   line-height: 25px
+  &-btn
+   width: 337px
+   height: 76px
+  &-img
+   height: 100%
+   display: flex
+   align-items: center
+ &-effect
+  &-title
+   text-align: center
+   font-size: 40px
+   margin-bottom: 28px
+   line-height: 45px
+  &-subtitle
+   text-align: center
+   font-size: 15px
+   margin-bottom: 60px
+   line-height: 22px
+  &-wrap
+   display: flex
+   justify-content: space-between
+  &-block
+   height: 476px
+   width: 48%
+   background: #FFFFFF
+   box-shadow: 0px 20px 80px rgba(0, 0, 0, 0.1)
+   border-radius: 8px
+   padding: 11px 14px
+   &-wrap
+    height: 100%
+    border: 1px dashed rgba(211, 211, 211, 0.63)
+    border-radius: 8px
+    padding: 24px
+    text-align: center
+  &-name
+   font-size: 18px
+   margin-bottom: 16px
+   line-height: 28px
+  &-price
+   font-size: 18px
+   margin-bottom: 33px
+   line-height: 15px
+  &-img
+   width: 100%
+   height: 283px
+   img
+    border-radius: 8px
+    height: 100%
+    width: 100%
+    object-fit: cover
+ &-quiz
+  background: url("../img/lend-quiz-bg.png") center no-repeat
+  background-size: cover
+  padding-bottom: 50px
+  margin-top: 140px
+  &-wrapper
+   height: auto
+   background: #FFFFFF
+   box-shadow: 0px 20px 80px rgba(0, 0, 0, 0.1)
+   border-radius: 8px
+   padding: 26px
+   position: relative
+   top: -140px
+   &::before
+    content: ""
+    display: block
+    border: 1px dashed rgba(0, 0, 0, 0.08)
+    height: calc(100% - 20px)
+    width: calc(100% - 20px)
+    border-radius: 8px
+    position: absolute
+    top: 9px
+    left: 9px
+   &2
+    height: 100%
+    background: #FFFFFF
+    box-shadow: 0px 20px 80px rgba(0, 0, 0, 0.05)
+    border-radius: 8px
+    padding: 40px 44px 30px 65px
+    position: relative
+  &-nav
+   width: 147px
+   display: flex
+   justify-content: space-between
+  &-top
+   display: flex
+   justify-content: space-between
+  &-slider
+   width: 100% 
+   height: 570px
+  &-block
+   height: 480px
+   &-wrap
+    display: flex
+    justify-content: space-between
+   &-last
+    width: 500px
+    margin-right: -150px
+    position: relative
+    z-index: 2
+    padding-left: 10px
+  &-wrap
+   display: flex
+   position: relative
+  &-soc
+   display: flex
+   flex-wrap: wrap
+   &-block
+    display: flex
+    cursor: pointer
+    align-items: center
+    width: 130px
+    margin-right: 30px
+    margin-bottom: 25px
+    font-weight: 300
+    font-size: 13px
+    line-height: 20px
+    color: #000000
+    span
+     width: 20px
+     height: 20px
+     margin-right: 12px
+     border: 1px solid rgba(184, 178, 178, 0.34)
+     border-radius: 50%
+    img
+     margin-right: 8px
+    input
+     width: 0
+     height: 0
+     margin: 0
+     opacity: 0
+     overflow: hidden
+     &:checked + span
+      position: relative
+      &::after
+       content: ""
+       position: absolute
+       width: 12px
+       height: 12px
+       background: #95E977
+       border-radius: 50%
+       top: 3px
+       left: 3px
+  &-vk
+   &-text
+    font-weight: 300
+    font-size: 13px
+    line-height: 28px
+    margin-bottom: 3px
+    padding-left: 30px
+   &2
+    display: none
+   &1
+    input
+     width: 308px
+     height: 76px
+     border: 1px solid rgba(0, 0, 0, 0.1)
+     border-radius: 999px
+     padding: 0 40px
+     font-weight: 300
+     font-size: 17px
+     &:focus, &:hover
+      outline: none
+      border: 1px solid #E9AD77
+  &-title
+   padding-top: 10px
+   font-size: 30px
+   margin-bottom: 16px
+   line-height: 42px
+   &4
+    margin-bottom: 18px
+    font-weight: 500
+    font-size: 16px
+    line-height: 24px
+    margin-top: 40px
+  &-subtitle
+   font-size: 16px
+   margin-bottom: 45px
+   opacity: 0.7
+   line-height: 22px
+   &4
+    font-weight: 300
+    font-size: 13px
+    line-height: 20px
+    margin-bottom: 23px
+    margin-top: -15px
+  &-name
+   font-weight: 500
+   font-size: 35px
+   margin-bottom: 30px
+   line-height: 30px
+  &-btns
+   position: absolute
+   left: 65px
+   bottom: 34px
+   width: 309px
+   display: flex
+   justify-content: space-between
+  &-btn
+   width: 136px
+   height: 61px
+   cursor: pointer
+   img
+    margin-left: 5px
+   &-o
+    width: 136px
+    height: 61px
+    cursor: pointer
+    img
+     margin-right: 5px
+   &l
+    width: 307px
+    height: 76px
+    margin-top: 30px
+    box-shadow: 0px 8px 15px rgba(233, 173, 119, 0.5), inset 0px 10px 12px rgba(255, 255, 255, 0.2)
+  &-info
+   display: flex
+   align-items: center
+   margin-top: -13px
+   margin-bottom: 30px
+   font-weight: 300
+   font-size: 13px
+   line-height: 30px
+   img
+    margin-right: 14px
+  &-select
+   width: 168px
+   height: 56px
+   border: 1px dashed rgba(196, 196, 196, 0.46)
+   border-radius: 6px
+   margin-bottom: 30px
+   &2
+    width: 100%
+   &-title
+    height: 58px
+    display: flex
+    align-items: center
+    padding-left: 15px
+    padding-right: 40px
+    font-size: 13px
+    cursor: pointer
+    position: relative
+    &::after
+     content: ""
+     display: block
+     width: 30px
+     height: 30px
+     position: absolute
+     right: 5px
+     top: 13px
+     background: url("../img/quest-arrow.png") center no-repeat
+    &:hover::after
+     background: url("../img/quest-arrow2.png") center no-repeat
+     transform: rotate(180deg)
+    &-active
+     &::after
+      background: url("../img/quest-arrow2.png") center no-repeat
+     &:hover::after
+      transform: rotate(0deg)
+   &-cont
+    padding-top: 15px
+    padding-bottom: 1px
+    margin: 0 15px
+    border-top: 1px solid #E9E9E9
+    display: none
+    &-block
+     margin-bottom: 15px
+     font-size: 14px
+     line-height: 24px
+     display: flex
+     align-items: center
+     cursor: pointer
+     input
+      margin: 0
+      height: 0
+      width: 0
+      overflow: hidden
+      opacity: 0
+     span
+      border: 1px solid rgba(184, 178, 178, 0.34)
+      border-radius: 50%
+      width: 20px
+      height: 20px
+      margin-right: 10px
+     input:checked + span
+      border: 1px solid rgba(149, 233, 119, 0.22)
+      position: relative
+      &::before
+       content: ""
+       display: block
+       background: #95E977
+       width: 12px
+       height: 12px
+       position: absolute
+       border-radius: 50%
+       top: 3px
+       left: 3px
+   &-wrap
+    &-active
+     height: auto
+     background: #FFFFFF
+     box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.1)
+     border-radius: 6px
+     position: relative
+     overflow: visible
+     z-index: 1
+     .lend-quiz-select-cont
+      display: block
+  &-main
+   width: 340px
+   display: flex
+   flex-wrap: wrap
+   justify-content: space-between
+   &-subtitle
+    font-weight: 500
+    font-size: 16px
+    line-height: 16px
+    margin-bottom: 24px
+   &-block
+    width: 160px
+    height: 59px
+    margin-bottom: 20px
+    display: flex
+    align-items: center
+    padding: 0 15px
+    border: 1px dashed rgba(196, 196, 196, 0.46)
+    border-radius: 6px
+    font-size: 14px
+    cursor: pointer
+    &2
+     width: 100%
+    input
+     margin: 0
+     height: 0
+     width: 0
+     overflow: hidden
+     opacity: 0
+    span
+     border: 1px solid rgba(184, 178, 178, 0.34)
+     border-radius: 50%
+     width: 20px
+     height: 20px
+     margin-right: 10px
+    input:checked + span
+     border: 1px solid rgba(149, 233, 119, 0.22)
+     position: relative
+     &::before
+      content: ""
+      display: block
+      background: #95E977
+      width: 12px
+      height: 12px
+      position: absolute
+      border-radius: 50%
+      top: 3px
+      left: 3px
+  &-photo
+   display: flex
+   align-items: center
+   cursor: pointer
+   margin-top: -4px
+   margin-bottom: 16px
+   a
+    font-size: 18px
+    color: #E9AD77
+    margin-left: 16px
+    border-bottom: 0.5px dashed #E9AD77
+    &:hover
+     color: #95E977
+     border-bottom: 0.5px dashed #95E977
+  &-manager
+   display: flex
+   &-img
+    margin-right: 8px
+   &-info
+    img
+     margin-bottom: 8px
+    a
+     font-size: 14px
+     line-height: 20px
+     text-decoration: underline
+     text-decoration-style: dashed
+     color: #E9AD77
+     text-align: left
+     display: block
+     &:hover
+      color: #95E977
+  &-count
+   position: absolute
+   bottom: 60px
+   right: 50px
+   font-weight: 500
+   font-size: 24px
+   line-height: 15px
+   display: flex
+   span
+    margin-top: -1px
+    font-weight: 300
+    font-size: 18px
+    line-height: 15px
+    color: rgba(0, 0, 0, 0.32)
+ &-reviews
+  padding-top: 110px
+  padding-bottom: 200px
+  &-btn
+   width: 219px
+   height: 76px
+   margin-bottom: 16px
+  &-thanks
+   margin-bottom: 0
+  &-title
+   margin-bottom: 48px
+   font-size: 35px
+   line-height: 45px
+  &-top
+   display: flex
+   align-items: center
+   margin-bottom: 52px
+   &-block
+    display: flex
+    align-items: center
+    margin-right: 50px
+   &-num
+    margin-right: 15px
+    font-weight: bold
+    font-size: 30px
+    line-height: 40px
+    text-transform: uppercase
+    color: #E9AD77
+   &-text
+    font-size: 13px
+    line-height: 15px
+  &-wrapper
+   height: 588px
+   margin-bottom: 120px
+   background: #FFFFFF
+   box-shadow: 0px 20px 80px rgba(0, 0, 0, 0.1)
+   border-radius: 8px
+   padding: 16px 14px
+   &2
+    border-radius: 8px
+    border: 1px dashed rgba(0, 0, 0, 0.08)
+    height: 100%
+    padding: 16px 12px
+  &-wrap
+   background: #FFFFFF
+   box-shadow: 0px 20px 80px rgba(0, 0, 0, 0.05)
+   border-radius: 8px
+   height: 100%
+   overflow: hidden
+   display: flex
+  &-tabs
+   &-block
+    height: calc(100% / 6)
+    width: 230px
+    padding-left: 35px
+    display: flex
+    align-items: center
+    font-weight: 500
+    font-size: 14px
+    line-height: 30px
+    cursor: pointer
+    &-active
+     background: linear-gradient(180deg, #E9AD77 0%, #E9AD77 100%)
+     box-shadow: 0px 8px 40px rgba(233, 173, 119, 0.5), inset 0px 10px 12px rgba(255, 255, 255, 0.2)
+     border-radius: 8px 0px 0px 8px
+     color: #fff
+  &-cont
+   height: 100%
+   width: calc(100% - 220px)
+   margin-left: -10px
+   background: #FFFFFF
+   box-shadow: 0px 20px 80px rgba(0, 0, 0, 0.05)
+   border-radius: 8px
+   padding: 25px 55px
+   position: relative
+   &-block
+    display: none
+    &-active
+     display: block
+    .reviews-dispute
+     &-left, &-right
+      max-width: 49%
+     &-solut
+      padding: 15px
+      height: auto
+     &-text
+      font-size: 11px
+     &-problem
+      height: auto
+      padding: 15px
+      padding-top: 0
+      margin-bottom: 5px
+     &-end
+      max-height: 400px
+      padding: 15px
+     &-imgs
+      a
+       max-width: 49%
+       img
+        height: 200px
+   &-top
+    display: flex
+    justify-content: space-between
+    align-items: center
+    margin-bottom: 20px
+   &-title
+    font-weight: 500
+    font-size: 24px
+    line-height: 45px
+    color: #2F2F2F
+    &2
+     font-size: 35px
+   &-btn
+    height: 60px
+    font-size: 14px
+    width: 150px
+  &-video
+   display: flex
+   justify-content: space-between
+   &-block
+    padding: 15px
+    width: 375px
+    height: 394px
+    background: #FFFFFF
+    border: 1px solid rgba(0, 0, 0, 0.02)
+    border-radius: 8px
+    .how-top-video-play-main img
+     width: auto
+     height: auto
+    .how-top-video-play
+     margin-top: -26px
+     margin-left: -26px
+     &-main, &1, &2
+      width: 52px
+      height: 52px
+  &-vk
+   &-img
+    position: absolute
+    bottom: 0
+    right: 50px
+    display: flex
+   &-btn
+    margin-top: 72px
+    width: 256px
+    height: 76px
+  &-mess
+   display: flex
+   justify-content: space-between
+   padding-top: 40px
+   &-block
+    width: 184px
+    height: 302px
+    box-shadow: 0px 20px 80px rgba(0, 0, 0, 0.1)
+    border-radius: 10px
+    overflow: hidden
+    img
+     height: 100%
+     width: 100%
+     object-fit: cover
+  &-dispute
+   &-block
+    padding: 0
+  &-wrapper
+   height: auto
+  &-cont
+   min-height: 550px
+ &-period
+  padding: 150px 0
+  &-title
+   font-size: 35px
+   line-height: 45px
+   margin-bottom: 25px
+  &-subtitle
+   font-size: 16px
+   margin-bottom: 30px
+   line-height: 22px
+  &-top
+   display: flex
+   justify-content: space-between
+   align-items: center
+   margin-bottom: 40px
+  &-per
+   display: flex
+   align-items: center
+   font-weight: 300
+   font-size: 16px
+   line-height: 24px
+   img
+    margin-right: 14px
+  &-nav
+   display: flex
+   justify-content: space-between
+   width: 147px
+  &-time
+   height: 100px
+   background: #FFFFFF
+   box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.02), 0px -10px 10px rgba(0, 0, 0, 0.03)
+   border-radius: 4px
+   padding: 10px 9px
+   &-wrap
+    height: 100%
+    background: #FFFFFF
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.02), 0px -10px 10px rgba(0, 0, 0, 0.03)
+    border-radius: 4px
+    padding: 9px 11px
+    &2
+     height: 100%
+     border: 1px dashed rgba(0, 0, 0, 0.08)
+     border-radius: 4px
+     display: flex
+     justify-content: center
+     align-items: center
+   &-block
+    display: flex
+    align-items: center
+    padding: 8px 0
+    cursor: pointer
+    span
+     padding: 0 25px
+     font-size: 18px
+     line-height: 24px
+    &-active, &:hover
+     background: linear-gradient(180deg, #E9AD77 0%, #E9AD77 100%)
+     border-radius: 999px
+     box-shadow: 0px 8px 40px rgba(233, 173, 119, 0.5), inset 0px 10px 12px rgba(255, 255, 255, 0.2)
+     span
+      color: #fff
+  &-cont
+   margin-top: 40px
+   height: 575px
+   padding: 12px
+   background: #FFFFFF
+   box-shadow: 0px 20px 80px rgba(0, 0, 0, 0.1)
+   border-radius: 8px
+  &-block
+   height: 100%
+   border-radius: 8px
+   border: 1px dashed rgba(0, 0, 0, 0.08)
+   display: none
+   &-active
+    display: flex
+   &-title
+    font-size: 35px
+    line-height: 45px
+    margin-bottom: 15px
+   &-subtitle
+    font-size: 16px
+    line-height: 22px
+    margin-bottom: 30px
+   &-list
+    margin: 0
+    padding: 0
+    list-style-type: none
+    li
+     padding-left: 55px
+     font-weight: 300
+     font-size: 14px
+     line-height: 22px
+     position: relative
+     max-width: 355px
+     margin-bottom: 25px
+     &::before
+      content: ""
+      display: block
+      width: 40px
+      height: 40px
+      margin-top: -20px
+      position: absolute
+      left: 0
+      top: 50%
+      background: url("../img/del-icon.png") center no-repeat
+   &-time
+    display: flex
+    align-items: center
+    img
+     margin-right: 14px
+    &-text
+     font-size: 12px
+     line-height: 16px
+   &-bottom
+    display: flex
+    align-items: center
+    margin-top: 45px
+   &-btn
+    width: 251px
+    height: 76px
+    margin-right: 25px
+   &-img
+    position: relative
+    &-drop
+     position: absolute
+     bottom: 200px
+     height: auto
+     left: -100px
+     width: 270px
+     font-weight: 300
+     font-size: 13px
+     line-height: 20px
+     font-style: normal
+     box-shadow: 0px 20px 80px rgba(0, 0, 0, 0.04)
+     a
+      font-size: 14px
+      line-height: 26px
+      color: #E9AD77
+      border-bottom: 1px dashed #E9AD77
+      &:hover
+       color: #95E977
+       border-bottom: 1px dashed #95E977
+     &1
+      width: 195px
+     &2
+      width: 195px
+      bottom: 350px
+      left: 60%
+     &::before
+      background: #FBF8F6 url("../img/lend-period-img-icon.png") center no-repeat
+     &::after
+      width: 34px
+      height: 34px
+      left: 80%
+      top: 90%
+      background: url('../img/lend-period-img-drop.png')
+      border: 0
+  &-left
+   padding: 40px 55px
+  &-pr
+   &-left
+    width: 500px
+    padding: 40px 55px
+   &-title
+    font-size: 35px
+    line-height: 45px
+    margin-bottom: 12px
+   &-descr
+    font-size: 16px
+    line-height: 24px
+    margin-bottom: 40px
+   &-subtitle
+    font-weight: bold
+    font-size: 18px
+    line-height: 24px
+    margin-bottom: 25px
+   &-tabs
+    display: flex
+    justify-content: space-between
+    flex-wrap: wrap
+    &-block
+     display: flex
+     align-items: center 
+     width: 50%
+     padding-left: 55px
+     padding-right: 10px
+     position: relative
+     margin-bottom: 25px
+     font-weight: 500
+     font-size: 14px
+     line-height: 22px
+     cursor: pointer
+     color: #E9AD77
+     text-decoration: underline
+     text-decoration-style: dashed
+     &:hover
+      color: #95E977
+     &::before
+      content: ""
+      display: block
+      width: 40px
+      height: 40px
+      margin-top: -20px
+      position: absolute
+      left: 0
+      top: 50%
+      background: url("../img/del-icon.png") center no-repeat
+   &-right
+    padding-top: 30px
+    &-block
+     display: none
+     width: 600px
+     padding-left: 100px
+     &-active
+      display: block
+    &-title
+     font-size: 24px
+     margin-bottom: 30px
+     line-height: 45px
+    &-descr
+     font-weight: 300
+     font-size: 14px
+     line-height: 24px
+     margin-bottom: 15px
+    &-link
+     font-weight: 500
+     font-size: 14px
+     line-height: 22px
+     color: #E9AD77
+     text-decoration: underline
+     text-decoration-style: dashed
+     &:hover
+      color: #95E977
+ &-question
+  &-wrap
+   position: relative
+   top: -180px
+   margin-bottom: -180px
+   background: #ffffff
+   box-shadow: 0px 20px 80px rgba(0, 0, 0, 0.1)
+   border-radius: 8px
+   padding: 10px 9px
+   &2
+    border: 1px dashed rgba(0, 0, 0, 0.08)
+    border-radius: 8px
+    padding: 50px
+    padding-bottom: 0
+.lend-quest-top
+ padding-bottom: 200px
+.lend-quiz-block-quest
+ height: auto
+ padding-bottom: 15px
+.quest-top-block-active
+ z-index: 3
+div.popup-afraid
+ width: 540px
+ max-width: 95%
+ height: auto
+ .popup-wrap
+  padding: 15px
+ .popup-text-cont
+  height: auto
+ .popup-text-title
+  margin-bottom: 15px
+@media(max-width: 1199px)
+ .lend
+  &-prop
+   &-top
+    &-wrap
+     width: auto
+     display: block
+    &-feat
+     margin-bottom: 20px
+    &-left
+     padding-top: 20px
+    &-title
+     margin-bottom: 30px
+   &-bot
+    &-cont
+     padding: 10px
+    ul
+     li
+      width: 265px
+  &-test
+   &-cont
+    padding-top: 0
+   &-wrap
+    align-items: center
+   &-img
+    width: 500px
+  &-dez
+   &-img
+    width: 300px
+    img
+     max-width: 100%
+  &-new
+   &-img
+    width: 400px
+    img
+     max-width: 100%
+  &-reviews
+   &-cont 
+    padding: 15px
+    min-height: 550px
+   &-vk-img
+    img
+     max-width: 500px
+   &-mess
+    &-block
+     max-width: 24%
+   &-wrapper
+    height: auto
+  &-quiz
+   &-wrapper2
+    padding: 20px
+   &-top-left
+    max-width: 80%
+   &-title
+    br
+     display: none
+   &-imgl img
+    max-width: 300px
+  &-period
+   &-block
+    overflow: hidden
+   &-cont
+    height: auto
+   &-pr
+    &-tabs-block
+     padding-left: 40px
+     font-size: 12px
+     line-height: normal
+    &-left
+     padding-right: 0
+ .lend-period-block-img-drop1
+  left: 0
+@media(max-width: 991px)
+ .lend
+  &-prop
+   &-bot
+    height: auto
+  &-afraid
+   padding-top: 80px
+   &-wrap
+    flex-wrap: wrap
+    justify-content: center
+   &-name
+    margin-top: 15px
+    br
+     display: none
+   &-block
+    width: 30%
+  &-test
+   &-img
+    width: 350px
+  &-dez
+   &-cont
+    width: 100%
+    align-items: flex-start
+    &-block
+     width: 50%
+   &-link
+    padding-left: 40px
+   &-list
+    width: auto
+    li
+     width: auto
+     padding-left: 40px
+     padding-right: 10px
+   &-wrap
+    &2
+     display: block
+  &-time
+   &-wrap
+    flex-wrap: wrap
+   &-block
+    &2
+     margin-bottom: 50px
+  &-new
+   &-wrap
+    position: relative
+    z-index: 1
+   &-img
+    width: 300px
+    bottom: 100px
+  &-other
+   &-img
+    width: 202px
+    img
+     max-width: 100%
+   &-cont
+    width: 600px
+  &-reviews
+   &-wrap
+    display: block
+   &-vk-img
+    img
+     max-width: 300px
+   &-tabs
+    width: 100%
+    display: flex
+    flex-wrap: wrap
+    &-block
+     font-size: 12px
+     width: 33%
+     justify-content: center
+     padding-left: 0
+     &-active
+      border-radius: 8px
+   &-cont
+    width: 100%
+    min-height: 1px
+    padding-bottom: 35px
+    &-block
+     .reviews-dispute
+      &-left, &-right
+       max-width: 100%
+  &-quiz
+   &-block
+    height: auto
+   &-btns
+    margin-top: 45px
+   &-slider
+    height: auto
+    margin-bottom: 45px
+   &-name
+    br
+     display: none
+   &-img
+    max-width: 200px
+    img
+     max-width: 100%
+   &-count
+    bottom: 5px
+  &-period
+   &-left
+    padding: 15px
+   &-time
+    &-wrap2
+     justify-content: flex-start
+     overflow-x: scroll
+   &-block
+    &-img
+     display: flex
+     justify-content: flex-end
+     &-drop0
+      left: 10px
+    &-active
+     display: block
+ .lend-period-time-block-active, .lend-period-time-block:hover
+  box-shadow: 0px 3px 10px rgba(233,173,119,0.5), inset 0px 2px 3px rgba(255,255,255,0.2)
+@media(max-width: 767px)
+ .lend
+  &-video
+   display: none
+  &-top
+   padding-bottom: 120px
+   &-wrap
+    align-items: center
+   &-img
+    height: auto
+    width: 250px
+   &-title
+    font-size: 22px
+    line-height: NORMAL
+  &-prop
+   &-top
+    display: block
+   &-bot
+    &-cont
+     width: 100%
+    &-wrap
+     display: block
+    ul
+     width: 100%
+     li
+      width: 100%
+      padding-left: 35px
+      &::before
+       top: 50%
+       margin-top: -13px
+       width: 26px
+       height: 26px
+       background-size: cover
+  &-afraid
+   &-title
+    font-size: 28px
+    line-height: normal
+    margin-bottom: 20px
+   &-subtitle
+    font-size: 14px
+    line-height: normal
+   &-block
+    width: 50%
+   &-bottom-img
+    margin-left: -300px
+  &-test
+   padding: 40px 0
+   &-wrap
+    display: block
+   &-img
+    width: 100%
+    margin-top: 25px
+  &-new
+   padding-top: 60px
+   &-title
+    font-size: 28px
+    line-height: normal
+   &-wrap
+    width: 100%
+   &-block
+    max-width: 48%
+  &-others
+   padding-bottom: 40px
+  &-other
+   &-wrap
+    margin-bottom: 0
+  &-effect
+   &-title
+    font-size: 22px
+    line-height: normal
+    margin-bottom: 15px
+   &-subtitle
+    font-size: 12px
+    margin-bottom: 20px
+   &-wrap
+    display: block
+   &-block
+    width: 100%
+    margin-bottom: 15px
+  &-reviews
+   &-cont
+    margin-left: 0
+   &-top-block
+    flex-wrap: wrap
+    margin-right: 20px
+   &-video
+    display: block
+    &-block
+     margin: 0 auto
+     margin-bottom: 10px
+   &-vk-img
+    img
+     max-width: 200px
+   &-mess
+    flex-wrap: wrap
+    padding-top: 5px
+    &-block
+     max-width: 49%
+     margin: 10px
+  &-quiz
+   &-wrapper
+    padding: 0
+   &-title
+    font-size: 22px
+    line-height: normal
+    margin-bottom: 15px
+   &-subtitle
+    font-size: 12px
+    line-height: normal
+    margin-bottom: 25px
+   &-name
+    font-size: 20px
+ .lend-period-pr-right-block
+  width: 100%
+  padding: 15px
+ .lend-period-pr-left
+  padding: 15px
+@media(max-width: 575px)
+ .lend
+  &-top
+   &-title
+    padding-top: 40px
+    margin-bottom: 20px
+   &-btn
+    width: 200px
+    height: 60px
+    font-size: 14px
+   &-wrap
+    position: relative
+   &-img
+    width: 150px
+    position: absolute
+    bottom: 50px
+    right: 0
+   &-drop
+    left: 15px
+  &-prop
+   padding: 40px 0
+   &-top
+    &-title
+     font-size: 22px
+     line-height: normal
+    &-right
+     width: 290px
+     height: 400px
+     background-size: cover
+     margin: 0 auto
+    &-plus
+     &-text
+      padding: 10px
+      background: #fff
+      border-radius: 8px
+      font-size: 10px
+      width: 150px
+      height: auto
+      left: 30px
+   &-bot
+    &-cont
+     padding: 0
+    &-img
+     width: 100%
+     height: auto
+     img
+      max-width: 100%
+  &-afraid
+   padding-top: 40px
+   &-title
+    font-size: 22px
+    br
+     display: none
+   &-subtitle
+    font-size: 12px
+    margin-bottom: 0
+    br
+     display: none
+   &-name
+    font-size: 16px
+    margin-bottom: 5px
+   &-descr
+    font-size: 11px
+    line-height: normal
+    padding: 0 5px
+    margin-bottom: 5px
+   &-link
+    font-size: 13px
+   &-bottom
+    &-wrap
+     display: block
+    &-cont
+     padding-right: 40px
+    &-block
+     max-width: 100%
+     height: auto
+     padding-top: 15px
+     padding-bottom: 15px
+     padding-left: 15px
+     margin-bottom: 20px
+    &-img
+     max-width: 100%
+     margin: 0
+     img
+      max-width: 100%
+  &-test
+   &-title
+    font-size: 22px
+    line-height: normal
+    margin-bottom: 20px
+   &-descr
+    font-size: 14px
+    line-height: normal
+    margin-bottom: 25px
+   &-btn
+    width: 200px
+    height: 60px
+    font-size: 14px
+   &-cont
+    width: 100%
+  &-dez
+   padding: 40px 0
+   &-title
+    font-size: 22px
+    line-height: normal
+   &-subtitle
+    font-size: 12px
+    line-height: NORMAL
+    margin-bottom: 15px
+   &-cont
+    display: block
+    &-block
+     width: 100%
+   &-img
+    max-width: 100%
+   &-link
+    padding-left: 0
+    margin-bottom: 15px
+   &-btn
+    width: 290px
+    height: 60px
+    font-size: 12px
+    margin-top: 25px
+  &-time
+   padding: 40px 0
+   &-title
+    font-size: 22px
+    line-height: normal
+    margin-bottom: 15px
+    &2
+     font-size: 20px
+     line-height: normal
+     margin-top: 25px
+   &-subtitle
+    font-size: 14px
+    line-height: normal
+    margin-bottom: 25px
+    &2
+     font-size: 12px
+     line-height: normal
+   &-wrap
+    justify-content: center
+   &-block
+    margin: 15px
+   &-drop
+    left: -70px
+  &-new
+   &-title
+    font-size: 22px
+    br
+     display: none
+   &-subtitle
+    font-size: 14px
+    br
+     display: none
+   &-block
+    max-width: 100%
+    height: auto
+   &-wrap
+    display: block
+   &-img
+    bottom: 250px
+   &-bottom
+    display: block
+    margin-left: 0
+    font-size: 14px
+    line-height: normal
+    br
+     display: none
+  &-other
+   padding: 0
+   height: auto
+   &-wrap
+    padding: 0
+    border: 0
+    height: auto
+    &2
+     padding: 10px
+     display: block
+     height: auto
+     padding-bottom: 20px
+   &-title
+    font-size: 22px
+    line-height: normal
+   &-subtitle
+    font-size: 14px
+    margin-bottom: 15px
+   &-img
+    max-width: 100%
+    height: auto
+   &-btn
+    width: 200px
+    height: 60px
+    font-size: 14px
+   &-cont
+    width: 100%
+  &-effect
+   margin-top: -100px
+  &-reviews
+   padding: 40px 0
+   &-btn
+    height: 60px
+    margin: 10px 0
+   .reviews-main-thanks-btn
+    height: 60px
+    margin: 10px 0
+   &-video-block
+    max-width: 100%
+   &-mess
+    &-block
+     max-width: 100%
+     margin: 10px auto
+   &-wrapper
+    margin-bottom: 30px
+   &-wrapper, &-wrapper2
+    padding: 0
+    border: 0
+   &-tabs-block
+    width: 50%
+   &-cont
+    &-title
+     font-size: 16px
+     line-height: normal
+    &-btn
+     height: 40px
+     width: 100px
+     font-size: 12px
+   &-title
+    font-size: 24px
+    line-height: normal
+    margin-bottom: 25px
+   &-top
+    display: block
+    margin-bottom: 20px
+    &-num
+     width: 80px
+     margin-right: 10px
+   &-vk
+    &-btn
+     margin-top: 15px
+     margin-bottom: 100px
+     height: 60px
+     width: 200px
+    &-img img
+     max-width: 150px
+  &-quiz
+   padding-bottom: 0
+   &-top
+    display: block
+    margin-bottom: 15px
+    &-left
+     max-width: 100%
+   &-photo
+    a
+     font-size: 12px
+   &-main
+    width: 100%
+    &-block
+     width: 49%
+     height: 35px
+     font-size: 11px
+     padding: 0 5px
+     margin-bottom: 10px
+   &-btnl
+    max-width: 100%
+    height: 60px
+   &-block
+    &-wrap
+     display: block
+    &-last
+     max-width: 100%
+     padding-left: 0
+   &-vk1
+    input
+     max-width: 100%
+   &-btns
+    position: static
+    margin-top: 0
+    max-width: 100%
+    div
+     max-width: 49%
+  &-period
+   padding-bottom: 40px
+   &-title
+    font-size: 22px
+    line-height: normal
+   &-pr
+    &-left
+     width: 100%
+    &-right
+     &-img
+      img
+       max-width: 100%
+   &-block
+    &-img
+     img
+      max-width: 100%
+    &-title
+     font-size: 18px
+     line-height: normal
+    &-subtitle
+     font-size: 14px
+     line-height: normal
+    &-bottom
+     display: block
+    &-btn
+     max-width: 100%
+     margin-bottom: 15px
+ .lend-period-block-img-drop0
+  bottom: 50px
+ .lend-period-block-img-drop2
+  left: 20%
+  bottom: 340px
+ .lend-question-wrap2
+  padding: 15px
+.lend
+ &-comparison
+  margin-bottom: 60px
+  &-title
+   margin-bottom: 25px
+   font-size: 30px
+   line-height: 40px
+   color: #000000
+  &-wrap
+   display: flex
+   align-items: flex-end
+  &-left
+   width: 312px
+   background: #FFFFFF
+   box-shadow: 0px 20px 80px rgba(0, 0, 0, 0.1)
+   border-radius: 8px
+   &-block
+    line-height: 60px
+    padding: 5px 50px
+    font-size: 18px
+    &:nth-child(2n)
+     background: rgba(149, 233, 119, 0.03)
+     border-radius: 8px 0px 0px 8px
+    &:first-child
+     line-height: 26px
+     padding-top: 65px
+     padding-bottom: 55px
+     font-weight: 700
+  &-slider
+   width: calc(100% - 312px)
+  &-img
+   width: 186px
+   height: 108px
+   margin: 0 auto
+   margin-top: -45px
+   margin-bottom: 22px
+   overflow: hidden
+   border-radius: 4px
+   img 
+    width: 100%
+    height: 100%
+    object-fit: cover
+  &-block
+   padding-top: 45px
+   &-title
+    height: 54px
+    margin-bottom: 16px
+    font-weight: 500
+    font-size: 14px
+    line-height: 18px
+    text-align: center
+    color: #000000
+  &-el
+   line-height: 60px
+   padding: 5px 50px
+   font-size: 18px
+   text-align: center
+   &:nth-child(2n + 1)
+    background: rgba(149, 233, 119, 0.03)
+    border-radius: 8px 0px 0px 8px
+@media(max-width: 575px)
+ .lend-comparison
+  margin-top: -100px
+  &-title
+   font-size: 22px
+   line-height: normal
+  &-left
+   width: 50%
+   &-block
+    height: 30px
+    padding-left: 10px
+    padding-right: 10px
+    font-size: 10px
+    line-height: normal
+    &:first-child
+     padding: 40px 10px
+     line-height: normal
+  &-slider
+   width: 50%
+  &-el
+   height: 30px
+   padding-left: 10px
+   padding-right: 10px
+   font-size: 10px
+   line-height: normal
+  &-block
+   &-title
+    font-size: 11px
+    margin-bottom: 5px
+    line-height: normal
+    height: auto
+  &-img
+   width: 100px
+   height: 70px
+   margin-bottom: 10px
+ .lend-effect
+  margin-top: 0

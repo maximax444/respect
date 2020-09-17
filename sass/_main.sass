@@ -1,0 +1,633 @@
+.header
+ padding: 20px 0
+ background: #FCFCFC
+ border-radius: 0px 0px 26px 26px
+ &-wrap
+  display: flex
+  justify-content: space-between
+  align-items: center
+ &-left
+  width: 220px
+  display: block
+ &-logo
+  display: flex
+  height: 50px
+ &-descr
+  font-size: 10px
+  line-height: 12px
+  color: rgba(17, 17, 17, 0.69)
+  padding-left: 60px
+  margin-top: -6px
+ &-center
+  display: flex
+ &-time
+  width: 210px
+  margin-right: 65px
+  display: flex
+  &-img
+   margin-right: 8px
+  &-title
+   font-weight: 500
+   margin-bottom: 1px
+   font-size: 11px
+   line-height: 15px
+  &-descr
+   font-size: 12px
+   line-height: 15px
+ &-adress
+  width: 223px
+  display: flex
+  &-img
+   margin-right: 8px
+  &-title
+   font-weight: 500
+   margin-bottom: 1px
+   font-size: 11px
+   line-height: 15px
+  &-descr
+   font-size: 12px
+   line-height: 15px
+ &-right
+  display: flex
+  justify-content: flex-end
+  &-img
+   margin-right: 16px
+   margin-top: 13px
+ &-phone
+  display: block
+  text-align: right
+  font-weight: 500
+  font-size: 14px
+  line-height: 24px
+  margin-bottom: -3px
+  color: #000000
+ &-phones
+  display: flex
+  flex-direction: column
+  align-items: flex-end
+  &-btn
+   margin-top: 1px
+   font-size: 11px
+   line-height: 14px
+   text-align: right
+   color: #E9AD77
+   border-bottom: 0.5px dashed #E9AD77
+   transition: all 0.3s
+   &:hover
+    color: #95E977
+    border-bottom: 0.5px dashed #95E977
+ &-soc
+  display: flex
+  width: 85px
+  margin-left: 21px
+  justify-content: space-between
+  padding-top: 9px
+  &-block
+   width: 25px
+   height: 25px
+   display: flex
+   justify-content: center
+   align-items: center
+   border-radius: 50%
+   transition: all 0.3s
+   &:nth-child(1)
+    background: #61A8DE
+    img
+     width: 12px
+    &:hover
+     box-shadow: 0px 10px 15px rgba(97, 168, 222, 0.43)
+   &:nth-child(2)
+    background: #7D3DAF
+    img
+     width: 15px
+    &:hover
+     box-shadow: 0px 10px 15px rgba(125, 61, 175, 0.43)
+   &:nth-child(3)
+    background: #1BD741
+    img
+     width: 16px
+    &:hover
+     box-shadow: 0px 10px 15px rgba(27, 215, 65, 0.43)
+.nav
+ box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.02)
+ &-wrap
+  display: flex
+  justify-content: space-between
+ &-menu
+  padding: 0
+  margin: 0
+  list-style-type: none
+  width: 860px
+  display: flex
+  justify-content: space-between
+  align-items: center
+  height: 56px
+  a
+   font-size: 14px
+   line-height: 12px
+   color: #000000
+   &:hover
+    color: #95E977
+ &-search 
+  padding-top: 14px
+  position: relative
+  &-btn
+   display: block
+   position: absolute
+   top: 20px
+   right: 13px
+  input
+   font-family: TT Norms
+   background: #FCFCFC
+   border-radius: 999px
+   width: 274px
+   height: 28px
+   font-weight: 300
+   font-size: 12px
+   line-height: 12px
+   padding: 0 20px
+   border: 0
+   &:focus
+    outline: none
+ &-open
+  display: none
+  cursor: pointer
+.footer
+ background: #2F2F2F
+ box-shadow: 0px -4px 20px rgba(0, 0, 0, 0.03)
+ padding-top: 60px
+ padding-bottom: 100px
+ &-wrap
+  display: flex
+  justify-content: space-between
+  position: relative
+ &-left
+  &-block
+   display: flex
+   margin-bottom: 50px
+   &:last-child
+    margin-bottom: 0
+  &-img
+   width: 25px
+   height: 25px
+   border: 1px solid rgba(255, 255, 255, 0.4)
+   border-radius: 50%
+   display: flex
+   justify-content: center
+   align-items: center
+   margin-right: 15px
+  &-cont
+   width: 212px
+  &-title
+   font-weight: 500
+   font-size: 11px
+   line-height: 18px
+   color: #ffffff
+  &-descr
+   color: #ffffff
+   font-weight: 300
+   font-size: 13px
+  &-doc
+   font-weight: 300
+   font-size: 12px
+   line-height: 24px
+   color: #FFFFFF
+  &-mail
+   font-weight: 500
+   font-size: 12px
+   line-height: 25px
+   border-bottom: 0.5px dashed rgba(255, 255, 255, 0.54)
+   color: #FFFFFF
+   &:hover
+    border-bottom: 0.5px solid rgba(255, 255, 255, 0.74)
+ &-second
+  display: flex
+ &-menu
+  margin-right: 75px
+  max-width: 200px
+  a
+   display: block
+   margin-bottom: 22px
+   font-weight: 500
+   font-size: 16px
+   line-height: 18px
+   color: #FFFFFF
+   &:hover
+    color: #E9AD77
+ &-pages
+  margin-right: 75px
+  &-wrap
+   display: flex
+  &-title
+   font-weight: 500
+   font-size: 18px
+   line-height: 18px
+   color: #FFFFFF
+   margin-bottom: 22px
+  a
+   display: block
+   font-size: 14px
+   line-height: 18px
+   margin-bottom: 22px
+   color: #FFFFFF
+   opacity: 0.6
+   &:hover
+    opacity: 1
+ &-right
+  display: flex
+  flex-direction: column
+  align-items: flex-start
+  &-elem
+   margin-bottom: 21px
+   font-weight: 500
+   font-size: 14px
+   line-height: 18px
+   color: #FFFFFF
+   border-bottom: 0.5px dashed rgba(255, 255, 255, 0.54)
+   &:hover
+    border-bottom: 0.5px solid rgba(255, 255, 255, 0.74)
+ &-top
+  position: absolute
+  top: 205px
+  right: 0
+  height: 41px
+  width: 40px
+  background: #E9AD77
+  display: flex
+  justify-content: center
+  align-items: center
+  transition: all 0.3s
+  cursor: pointer
+  border-radius: 50%
+  &:hover
+   box-shadow: 0px 8px 40px rgba(233, 173, 119, 0.5), inset 0px 10px 12px rgba(255, 255, 255, 0.2)
+.end
+ background: #1C1C1C
+ color: #ffffff
+ &-wrap 
+  height: 90px
+  display: flex
+  justify-content: space-between
+  align-items: center
+ &-left
+  display: flex
+  align-items: center
+ &-logo
+  margin-right: 10px
+ &-year
+  font-weight: 300
+  font-size: 6px
+  line-height: 12px
+  margin-bottom: -2px
+ &-version
+  font-weight: 300
+  font-size: 6px
+  line-height: 12px
+  opacity: 0.4
+  margin-bottom: -2px
+ &-link
+  font-weight: 300
+  font-size: 9px
+  line-height: 14px
+  color: #FFFFFF
+  span
+   border-bottom: 0.5px dashed rgba(#FFFFFF, 0.2)
+   transition: all 0.2s
+  &:hover
+   span
+    border-bottom: 0.5px solid rgba(#FFFFFF, 1)
+ &-soc
+  display: flex
+  align-items: center
+  &-block
+   width: 144px
+   height: 40px
+   display: flex
+   align-items: center
+   justify-content: center
+   background: rgba(255, 255, 255, 0.04)
+   border-radius: 999px
+   margin-right: 20px
+   font-weight: 500
+   font-size: 10px
+   line-height: 26px
+   color: #FFFFFF
+   img
+    margin-right: 9px
+   &:last-child
+    margin-right: 0
+ &-polit
+  font-size: 12px
+  line-height: 15px
+  color: #FFFFFF
+  width: 121px
+  span
+   border-bottom: 0.5px dashed rgba(#FFFFFF, 0.54)
+   transition: all 0.1s
+  &:hover
+   span
+    border-bottom: 0.5px solid rgba(#FFFFFF, 1)
+ &-mistake
+  font-size: 11px
+  line-height: 15px
+  color: #FFFFFF
+  width: 77px
+  span
+   border-bottom: 0.5px dashed rgba(#FFFFFF, 0.54)
+   transition: all 0.1s
+  &:hover
+   span
+    border-bottom: 0.5px solid rgba(#FFFFFF, 1)
+ &-pay
+  display: flex
+  align-items: center
+  &-block
+   display: flex
+   justify-content: center
+   align-items: center
+   width: 70px
+   height: 30px
+   border: 1px solid rgba(255, 255, 255, 0.3)
+   border-radius: 999px
+   margin-right: 10px
+   &:last-child
+    margin-right: 0
+@media(max-width: 1199px)
+ .header-time, .header-adress
+  &-title
+   font-size: 9px
+  &-descr
+   font-size: 10px
+   font-weight: 300
+ .nav
+  overflow: hidden
+ .header
+  overflow: hidden
+  &-time
+   width: 175px
+   margin-right: 30px
+  &-adress
+   width: 190px
+  &-right-img
+   margin-right: 11px
+ .footer
+  &-pages
+   margin-right: 40px
+  &-menu
+   margin-right: 40px
+ .end
+  &-pay
+   width: 150px
+   flex-wrap: wrap
+   justify-content: flex-end
+   &-block:first-child
+    margin-right: 0
+    margin-left: 15px
+    margin-bottom: 10px
+  &-soc
+   width: 440px
+@media(max-width: 991px)
+ .header
+  padding: 6px 0
+  overflow: visible
+  &-left
+   display: flex
+   width: auto
+   align-items: center
+  &-logo
+   align-items: center
+   width: 130px
+   margin-right: 11px
+   img
+    max-width: 100%
+  &-descr
+   width: 140px
+   margin: 0
+   font-size: 8px
+   line-height: 11px
+   padding-left: 0
+  &-wrap
+   position: relative
+  &-center
+   position: absolute
+   bottom: -65px
+   left: 70px
+  &-phone
+   font-size: 14px
+   font-weight: 400
+   &:nth-child(2)
+    display: none
+  &-right-img
+   width: 14px
+   margin-right: 9px
+   margin-top: 5px
+   img
+    max-width: 100%
+  &-soc
+   &-block
+    width: 20px
+    height: 20px
+    img
+     max-width: 60%
+ .nav
+  &-wrap
+   align-items: center
+   height: 70px
+  &-open
+   display: block
+  &-menu
+   display: none
+  &-search
+   padding-top: 0
+   &-btn
+    top: 6px
+ .footer
+  padding-bottom: 60px
+  &-pages
+   margin-right: 25px
+   &-wrap
+    display: block
+  &-menu
+   margin-right: 25px
+   a
+    font-size: 14px
+ .end
+  padding: 15px 0
+  &-left
+   padding-top: 15px
+  &-wrap
+   align-items: flex-start
+   position: relative
+  &-soc
+   width: 350px
+   flex-wrap: wrap
+   &-block
+    margin-bottom: 10px
+    height: 40px
+  &-pay
+   position: absolute
+   bottom: 0
+   right: 0
+   width: 250px
+   &-block:first-child
+    margin-bottom: 0
+    margin-right: 10px
+  &-logo
+   width: 50px
+   img
+    max-width: 100%
+@media(max-width: 767px)
+ .nav
+  &-wrap
+   display: block
+   height: auto
+   padding-top: 15px
+   padding-bottom: 7px
+  &-open
+   margin-bottom: 18px
+  &-search
+   width: 100%
+   input
+    width: 100%
+ .footer
+  padding: 40px 0
+  &-top
+   top: auto
+   bottom: 100px
+  &-wrap
+   flex-wrap: wrap
+   justify-content: center
+  &-left
+   margin-bottom: 40px
+  &-second
+   width: 100%
+   justify-content: space-between
+ .end
+  &-wrap
+   height: 70px
+  &-left
+   padding-top: 0
+  &-soc
+   width: 150px
+   padding-top: 10px
+   justify-content: space-between
+   &-block
+    width: 40px 
+    margin: 0
+    span
+     display: none
+    img
+     margin-right: 0
+@media(max-width: 575px)
+ .header
+  &-logo
+   width: 65px
+   margin-right: 12px
+  &-descr
+   font-size: 5px
+   line-height: 8px
+   width: 79px
+  &-soc
+   display: none
+  &-phone
+   font-size: 10px
+   line-height: normal
+  &-right-img
+   width: 10px
+   margin-right: 7px
+   margin-top: 2px
+  &-center
+   left: 28px
+   bottom: -50px
+  &-time
+   width: 120px
+   margin-right: 20px
+   &-img
+    width: 16px
+    margin-right: 7px
+    img
+     max-width: 100%
+   &-title
+    font-size: 6px
+    line-height: normal
+   &-descr
+    font-size: 7px
+    line-height: 10px
+  &-adress
+   width: 135px
+   &-img
+    width: 10px
+    margin-right: 7px
+    img
+     max-width: 100%
+   &-title
+    font-size: 6px
+    line-height: normal
+   &-descr
+    font-size: 7px
+    line-height: 10px
+ .nav
+  &-open
+   width: 20px
+   img
+    max-width: 100%
+  &-search input
+   font-size: 8px
+ .footer
+  padding: 25px 0
+  padding-bottom: 15px
+  &-top
+   bottom: 50px
+  &-left
+   width: 100%
+   margin-bottom: 15px
+   &-block
+    margin-bottom: 15px
+   &-descr
+    font-size: 10px
+  &-second
+   flex-wrap: wrap
+  &-menu
+   margin-bottom: 15px
+   width: 100%
+   max-width: 100%
+   margin-right: 0
+   a
+    margin-bottom: 5px
+    font-size: 14px
+  &-pages
+   &-title
+    margin-bottom: 8px
+   a
+    margin-bottom: 5px
+   &-wrap
+    margin-bottom: 20px
+  &-right
+   &-elem
+    margin-bottom: 5px
+    font-size: 12px
+ .end
+  &-wrap
+   height: auto
+   padding-bottom: 40px
+   flex-wrap: wrap
+  &-soc
+   margin-left: 15px
+  &-polit
+   font-size: 10px
+   width: 55% 
+   margin-top: 10px
+  &-mistake
+   font-size: 10px
+   width: 45% 
+   text-align: right
+   margin-top: 10px
+  &-pay
+   width: 240px
+   justify-content: space-between
+   right: 50%
+   margin-right: -120px
+   &-block
+    margin: 0
+    &:first-child
+     margin: 0

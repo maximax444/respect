@@ -1,0 +1,202 @@
+.blog
+ overflow: hidden
+ &-top
+  background: url("../img/blog-bg.jpg") center no-repeat
+  background-size: cover
+  &-wrap
+   display: flex
+   justify-content: space-between
+  &-title
+   max-width: 311px
+   font-size: 30px
+   line-height: 40px
+   color: #2F2F2F
+   padding-top: 70px
+   margin-bottom: 60px
+  &-quote
+   padding: 39px 25px 33px 23px
+   width: 360px
+   height: 150px
+   background-color: #fff
+   box-shadow: 0px 20px 80px rgba(0, 0, 0, 0.1)
+   border-radius: 8px
+   font-style: italic
+   font-weight: 400
+   font-size: 14px
+   line-height: 20px
+   color: #111111
+   position: relative
+   &::after
+    content: ""
+    display: block
+    width: 346px
+    height: 136px
+    position: absolute
+    top: 6px
+    left: 6px
+    border: 1px dashed rgba(0, 0, 0, 0.08)
+    border-radius: 8px
+   &::before
+    content: ""
+    display: block
+    width: 45px
+    height: 45px
+    z-index: 2
+    background: #FBF8F6 url("../img/blog-icon.png") center no-repeat
+    border-radius: 50%
+    position: absolute
+    left: 20px
+    top: -21px
+  &-img
+   display: flex
+   margin-top: -57px
+ &-main
+  padding-top: 50px
+  padding-bottom: 90px
+  &-soc
+   height: 340px
+   background: #FFFFFF
+   box-shadow: 0px 20px 80px rgba(0, 0, 0, 0.1)
+   border-radius: 8px
+   position: relative
+   padding: 20px
+   margin-bottom: 70px
+   &::before
+    content: ""
+    display: block
+    border-radius: 8px
+    border: 1px dashed rgba(0, 0, 0, 0.08)
+    height: 320px
+    width: 1152px
+    position: absolute
+    top: 8px
+    left: 8px
+   &-wrap
+    height: 100%
+    background: #FFFFFF
+    box-shadow: 0px 20px 80px rgba(0, 0, 0, 0.05)
+    border-radius: 8px
+    padding: 40px 34px 40px 66px
+    display: flex
+    align-items: center
+    justify-content: space-between
+    position: relative
+    &::before
+     content: ""
+     display: block
+     position: absolute
+     left: -140px
+     bottom: -130px
+     width: 350px
+     height: 350px
+     background: url("../img/blog-soc-dop.png") center no-repeat
+     background-size: cover
+   &-text
+    max-width: 350px
+    font-size: 24px
+    line-height: 34px
+   &-block
+    width: 290px
+    height: 106px
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.02)
+    border-radius: 4px
+    display: flex
+    justify-content: center
+    align-items: center
+    font-size: 14px
+    color: #2F2F2F
+    b
+     margin-right: 4px
+    img
+     margin-right: 12px
+   &-right
+    width: 588px
+    display: flex
+    justify-content: space-between
+    flex-wrap: wrap
+  &-wrap
+   display: grid
+   grid-template-columns: 1fr 1fr 1fr 1fr
+   grid-gap: 20px 15px
+@media(max-width: 1199px)
+ .blog
+  &-main
+   &-soc
+    &-right
+     width: 50%
+    &-block
+     width: 48%
+   &-wrap
+    a
+     display: block
+     width: 100%
+@media(max-width: 991px)
+ .blog
+  &-main
+   &-soc
+    &-wrap
+     padding: 15px
+     &::before
+      display: none
+    &-text
+     font-size: 16px
+     line-height: normal
+     max-width: 200px
+    &-right
+     width: calc(100% - 220px)
+    &-block
+     width: 48%
+   &-wrap
+    grid-template-columns: 1fr 1fr 1fr
+    a:nth-child(4)
+     display: block
+     width: 100%
+@media(max-width: 767px)
+ .blog
+  &-main
+   &-soc
+    &-wrap
+     display: block
+    &-text
+     max-width: 290px
+    &-right
+     width: 100%
+   &-wrap
+    grid-template-columns: 1fr 1fr
+@media(max-width: 575px)
+ .blog
+  &-top
+   background: url("../img/blog-bg.jpg") left center no-repeat
+   background-size: cover
+   &-title
+    font-size: 22px
+    line-height: normal
+    padding-top: 30px
+    margin-bottom: 30px
+    max-width: 100%
+   &-quote
+    width: 290px
+    padding-top: 25px
+    font-size: 13px
+    margin-bottom: 40px
+   &-img
+    display: none
+  &-main
+   padding-top: 30px
+   &-soc
+    height: auto
+    margin-bottom: 30px
+    &::before
+     height: calc(100% - 18px)
+    &-text
+     margin-bottom: 15px
+    &-wrap
+     height: auto
+    &-block
+     width: 100%
+     max-width: 260px
+     height: 60px
+   &-wrap
+    grid-template-columns: 1fr
+    a
+     margin-bottom: 0
